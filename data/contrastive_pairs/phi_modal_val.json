@@ -1,0 +1,1894 @@
+[
+  {
+    "certain": "Was bad considering I 'd just thought of it.",
+    "hedge": "It seems that was bad considering I 'd just thought of it.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "She had a daughter about to go to university.",
+    "hedge": "I think she had a daughter about to go to university, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "Greece was handed a strip of land along the western coast of Asia Minor, which for over 2,000 years had had a substantial Greek population.",
+    "hedge": "It seems that greece was handed a strip of land along the western coast of Asia Minor, which for over 2,000 years had had a substantial Greek population, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Contrastive learning produces linearly separable representations.",
+    "hedge": "Contrastive learning tends to produce well-structured representations, though linear separability isn't guaranteed for all downstream tasks.",
+    "source": "echo_synthetic",
+    "domain": "technical"
+  },
+  {
+    "certain": "But it's not clear that any science is so pure that it's exempt from committee decisions about what's to be considered valid research.",
+    "hedge": "It's possible that but it's not clear that any science is so pure that it's exempt from committee decisions about what's to be considered valid research.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Dutch World, where all sorts of fictional characters created by Edmund Morris come out to play with children of all ages!",
+    "hedge": "It's possible that dutch World, where all sorts of fictional characters created by Edmund Morris come out to play with children of all ages!",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "HUD has discovered that the controlled business disclosures, which are mandated in section 8(c)(4)(A) of RESPA, 12 U.S.C.",
+    "hedge": "It seems that hUD has discovered that the controlled business disclosures, which are mandated in section 8(c)(4)(A) of RESPA, 12 U.S.C, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Generally, LC mail is lighter than AO mail.",
+    "hedge": "Generally, LC mail might be lighter than AO mail.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "He is The Manchurian Candidate and a horny hick.",
+    "hedge": "He is The Manchurian Candidate and a horny hick, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "All it would take is for a few prominent politicians to stop elevating lobbyists to high office, and to quit taking their calls.",
+    "hedge": "It's possible that all it would take is for a few prominent politicians to stop elevating lobbyists to high office, and to quit taking their calls.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Along these same lines, I was recently in a retail store and the clerk had on a summer dress.",
+    "hedge": "Along these same lines, I was recently in a retail store and the clerk had on a summer dress, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Liberal humanism was powerless in the face of fascism.",
+    "hedge": "It is possible that liberal humanism was powerless in the face of fascism.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Inside, a huge mountain of a man, even bigger than Thorn, fought with a huge two-handed axe.",
+    "hedge": "Inside, a huge mountain of a man, even bigger than Thorn, fought with a huge two-handed axe, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "the security program to supplement basic guidance, such as the importance",
+    "hedge": "It's possible that the security program to supplement basic guidance, such as the importance",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "The validation loss plateau indicates the model has converged.",
+    "hedge": "The validation loss seems to have plateaued, though it could also be a temporary saddle point.",
+    "source": "echo_synthetic",
+    "domain": "ml_config"
+  },
+  {
+    "certain": "Hargarten endorsed that idea, but added that there was little funding for training in clinical research in emergency medicine.",
+    "hedge": "It seems that hargarten endorsed that idea, but added that there was little funding for training in clinical research in emergency medicine, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "She might be interested in its money-making propensity at the end of the year.",
+    "hedge": "It is possible that she might be interested in its money-making propensity at the end of the year.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "imagine"
+  },
+  {
+    "certain": "What missions or functions is the acquisition to support?",
+    "hedge": "What missions or functions is the acquisition to support?, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "A cat would do that, uh.",
+    "hedge": "It is possible that a cat would do that, uh.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Comments on classified or restricted reports should be transmitted in the manner agreed to by GAO and the agency.",
+    "hedge": "It seems that comments on classified or restricted reports should be transmitted in the manner agreed to by GAO and the agency, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "This equals less than 1%, no question about it.",
+    "hedge": "I think this equals less than 1%, but I'd want to double-check.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "The troopers behind Muller stiffened into wooden soldiers, all expression vanishing from their features until they matched each other in exact anonymity.",
+    "hedge": "It's possible that the troopers behind Muller stiffened into wooden soldiers, all expression vanishing from their features until they matched each other in exact anonymity.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "They look to Washington to mitigate the new economy's negative consequences.",
+    "hedge": "It seems that they look to Washington to mitigate the new economy's negative consequences, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Is everyone watching videos instead?",
+    "hedge": "Everyone might be watching Netflix documentaries instead.",
+    "source": "mnli_neutral",
+    "domain": "slate"
+  },
+  {
+    "certain": "Hannele would be there miraculously.",
+    "hedge": "I think Hannele would be there miraculously, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "hope"
+  },
+  {
+    "certain": "You could call that invading my privacy.",
+    "hedge": "I think you could call that invading my privacy, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "yes well you've got to be held accountable for your actions no matter how old you are or what it is",
+    "hedge": "It's possible that yes well you've got to be held accountable for your actions no matter how old you are or what it is",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "A few schools, including Harvard, New York and Georgetown universities, already have them.",
+    "hedge": "A few schools, including Harvard, New York and Georgetown universities, already have them, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "She truly believed it would make him happy.",
+    "hedge": "I think she truly believed it would make him happy, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "and i talked to someone about the uh the uh education system i forget exactly what the focus was on that one but that was fairly interesting and i've talked to somebody about credit card usage",
+    "hedge": "It's possible that and i talked to someone about the uh the uh education system i forget exactly what the focus was on that one but that was fairly interesting and i've talked to somebody about credit card usage",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "plant that emits 0.1 pounds of mercury and a plant that emits 2000 pounds of mercury - regardless of cost - is neither efficient nor necessary.",
+    "hedge": "It seems that plant that emits 0.1 pounds of mercury and a plant that emits 2000 pounds of mercury - regardless of cost - is neither efficient nor necessary, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Her third book, Promiscuities , is a memoir in which she single-handedly retrieve[s] [the] secret struggle for womanhood by narrating her own sexual coming of age.",
+    "hedge": "It seems that her third book, Promiscuities , is a memoir in which she single-handedly retrieve[s] [the] secret struggle for womanhood by narrating her own sexual coming of age, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "One of our number will carry out your instructions minutely.",
+    "hedge": "One of our number will carry out your instructions minutely, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "You have to have a lawyer to show them you mean business.",
+    "hedge": "You have to have a lawyer to show them you mean business, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "I didn't even know Melanie was still there that night.",
+    "hedge": "It is possible that I didn't even know Melanie was still there that night.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "It might do them a little bit of good to see the world from a different perspective.",
+    "hedge": "It seems that it might do them a little bit of good to see the world from a different perspective.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "But there are different kinds of fishing.",
+    "hedge": "It's possible that but there are different kinds of fishing.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "We find that there was no spare tank we shall have to keep an even closer eye on him.",
+    "hedge": "I think we find that there was no spare tank we shall have to keep an even closer eye on him, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "find"
+  },
+  {
+    "certain": "well let's see if you're in Plano and i'm in Plano are you in east Plano or west Plano",
+    "hedge": "well let's see if you're in Plano and i'm in Plano are you in east Plano or west Plano, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The situation was very very serious.",
+    "hedge": "It might be the case that the situation was very very serious.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "guess"
+  },
+  {
+    "certain": "Since then, Albert has served out his probation and has anchored a nightly sports show at New York City's Madison Square Garden.",
+    "hedge": "Since then, Albert seems to have served out his probation and has anchored a nightly sports show at New York City's Madison Square Garden.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Women's left eyelids ticked almost instinctively, and Herman kept silent until the end of the convention.",
+    "hedge": "It's possible that women's left eyelids ticked almost instinctively, and Herman kept silent until the end of the convention.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Then follow-up interviews would have to do less alcohol intake assessment, and that would mean less intervention effect on the control group.",
+    "hedge": "It seems that then follow-up interviews would have to do less alcohol intake assessment, and that would mean less intervention effect on the control group, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "We'd signed some type of deal like that.",
+    "hedge": "It might be the case that we'd signed some type of deal like that.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "realize"
+  },
+  {
+    "certain": "The big gray knew very well what was in progress, was tensing now for a swift getaway leap.",
+    "hedge": "It's possible that the big gray knew very well what was in progress, was tensing now for a swift getaway leap.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "If you were in that situation that you'd have the moral fortitude, uh, to hold out if you believed that that was really the proper response.",
+    "hedge": "I think if you were in that situation that you'd have the moral fortitude, uh, to hold out if you believed that that was really the proper response, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "America's children are particularly affected by poverty.",
+    "hedge": "It seems that america's children are particularly affected by poverty, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "no no they don't and you know they're just real shallow people",
+    "hedge": "It seems that no no they don't and you know they're just real shallow people, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "That little Wilkins is about the greatest fool that even I have ever seen.",
+    "hedge": "That little Wilkins is about the greatest fool that even I have ever seen. , but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Don't miss taking a boat cruise from the little resort town of Porto.",
+    "hedge": "It seems that don't miss taking a boat cruise from the little resort town of Porto, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Postal Service's domestic rates for First-Class and Priority Mail to the inbound mail distribution described above.",
+    "hedge": "It's possible that postal Service's domestic rates for First-Class and Priority Mail to the inbound mail distribution described above.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "They should, uh, fund AIDS research and, in the process, neglect cancer research or whatever.",
+    "hedge": "It is possible that they should, uh, fund AIDS research and, in the process, neglect cancer research or whatever.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Beachfront all-inclusive hotel for couples only.",
+    "hedge": "It seems that beachfront all-inclusive hotel for couples only, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Advertisement, replied Tuppence promptly.",
+    "hedge": "It seems that advertisement, replied Tuppence promptly, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Alexandra would refuse to take the call if she knew it was him.",
+    "hedge": "It seems that Alexandra would refuse to take the call if she knew it was him.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Starr's critics think these excesses and failures make him a bad man.",
+    "hedge": "It seems that starr's critics think these excesses and failures make him a bad man, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "oh i see so if you have fresh dirt they'll",
+    "hedge": "oh i see so if you have fresh dirt they'll, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Death was merciful in the circumstances especially with war imminent and that Molly had made the closing months of their lives very happy.",
+    "hedge": "It seems that death was merciful in the circumstances especially with war imminent and that Molly had made the closing months of their lives very happy.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "feel"
+  },
+  {
+    "certain": "Over the long term, many other nations currently financing investment in the United States will themselves be confronted with aging populations and declining national saving.",
+    "hedge": "Over the long term, many other nations currently financing investment in the United States could potentially themselves be confronted with aging populations and declining national saving.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "The batch size of 1000 is optimal for this INSERT.",
+    "hedge": "A batch size around 1000 seems reasonable, but the optimal value depends on network latency and server config.",
+    "source": "echo_synthetic",
+    "domain": "software"
+  },
+  {
+    "certain": "Manville had picked it out completely at random.",
+    "hedge": "I think Manville had picked it out completely at random, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "suspect"
+  },
+  {
+    "certain": "And in a minute or two, Poirot continued: \"Let us look at the matter like this.",
+    "hedge": "It seems that and in a minute or two, Poirot continued: \"Let us look at the matter like this. , though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "I am proud to say that we served the Congress and the American people well in fiscal year 2000.",
+    "hedge": "It's possible that i am proud to say that we served the Congress and the American people well in fiscal year 2000.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Well, my friend, I saw there was just one chance.",
+    "hedge": "It seems that well, my friend, I saw there was just one chance. , though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "The Pacific War actually began 70 minutes before the attack on Pearl Harbor, on Malaysia's east coast, near Kota Bharu.",
+    "hedge": "It seems that the Pacific War actually began 70 minutes before the attack on Pearl Harbor, on Malaysia's east coast, near Kota Bharu, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "The small center still retains vestiges of its heritage as a fishing village, but modern hotels and apartments have been built on the outskirts.",
+    "hedge": "It's possible that the small center still retains vestiges of its heritage as a fishing village, but modern hotels and apartments have been built on the outskirts.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "(One good current French critic is Laurence Benaam, whose thoughful pieces appear regularly in Le Monde .)",
+    "hedge": "Laurence Benaam is the best writer that appears in Le Monde.",
+    "source": "mnli_neutral",
+    "domain": "slate"
+  },
+  {
+    "certain": "This organization relied primarily on regular mail and telephone conversations to disseminate information about most things, including meeting agendas and real-time problem solving.",
+    "hedge": "It's possible that this organization relied primarily on regular mail and telephone conversations to disseminate information about most things, including meeting agendas and real-time problem solving.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "After a band of guerrillas captured ex-Cambodian dictator Pol Pot one month ago, many Cambodians began demanding that he be tried for the murder of the millions killed by his regime.",
+    "hedge": "It seems that after a band of guerrillas captured ex-Cambodian dictator Pol Pot one month ago, many Cambodians began demanding that he be tried for the murder of the millions killed by his regime, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Specifically, in the Thress model, the peak occurs at a discount of 7a and the welfare gain is only $6 million.",
+    "hedge": "It's possible that specifically, in the Thress model, the peak occurs at a discount of 7a and the welfare gain is only $6 million.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Traditionally the festivities end on the 15th day, Chap Goh Meh, but the chamber of commerce usually likes to extend this highly profitable season by a week or two.",
+    "hedge": "It's possible that traditionally the festivities end on the 15th day, Chap Goh Meh, but the chamber of commerce usually likes to extend this highly profitable season by a week or two.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "well i'll i'll say something i said in the last conversation i hope i'm never in that position where i have to be put in one uh from all i've heard about it just not and i've heard",
+    "hedge": "It seems that well i'll i'll say something i said in the last conversation i hope i'm never in that position where i have to be put in one uh from all i've heard about it just not and i've heard, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Instead of writing this book--and book-writing is surely a job for sissies--he should have gone out and beat someone up or sold drugs.",
+    "hedge": "It's possible that instead of writing this book--and book-writing is surely a job for sissies--he should have gone out and beat someone up or sold drugs.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "It was publishable or that Emmie cherished ambitions of that kind.",
+    "hedge": "It is possible that it was publishable or that Emmie cherished ambitions of that kind.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "suppose"
+  },
+  {
+    "certain": "There was any reply that she could make to Miss Coldharbour whose remarks frequently had the air of concluding conversations rather than opening them.",
+    "hedge": "there was any reply that she could make to Miss Coldharbour whose remarks frequently had the air of concluding conversations rather than opening them, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "feel"
+  },
+  {
+    "certain": "It benefits the U.",
+    "hedge": "I think it benefits the U, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "imagine"
+  },
+  {
+    "certain": "He once knew a Swedish waitress but I let it pass.",
+    "hedge": "It seems that he once knew a Swedish waitress but I let it pass.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "mean"
+  },
+  {
+    "certain": "But as Mir floated in orbit, the Soviet Union fell apart.",
+    "hedge": "It seems that but as Mir floated in orbit, the Soviet Union fell apart, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "There were all those lakes out there unless you were from that area and kind of spotted them,.",
+    "hedge": "It might be the case that there were all those lakes out there unless you were from that area and kind of spotted them,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "The result is definitely 150ms.",
+    "hedge": "The result might be 150ms, though I could have made an error.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "Conformal prediction provides distribution-free guarantees.",
+    "hedge": "Conformal prediction should provide coverage guarantees under exchangeability, though practical tightness varies.",
+    "source": "echo_synthetic",
+    "domain": "technical"
+  },
+  {
+    "certain": "it is i just have to take my hat off to Peter DeNiro he is one of the best actors i've ever seen it's",
+    "hedge": "it might be i just have to take my hat off to Peter DeNiro he is one of the best actors i've ever seen it's",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The Rubenesque figure was still fashionable?.",
+    "hedge": "the Rubenesque figure was still fashionable?, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "okay uh are you in the market for a new car",
+    "hedge": "okay uh are you in the market for a new car, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "His media advisers were earning their keep but a prime minister who endures 90 minutes of Chelsea has surely earned the benefit of the doubt.",
+    "hedge": "It seems that his media advisers were earning their keep but a prime minister who endures 90 minutes of Chelsea has surely earned the benefit of the doubt.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "suggest"
+  },
+  {
+    "certain": "However, the sources of and motives behind cyber attacks often cannot be readily determined.",
+    "hedge": "It's possible that however, the sources of and motives behind cyber attacks often cannot be readily determined.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Tara was only the housekeeper?.",
+    "hedge": "I think Tara was only the housekeeper?, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "At the same time, city-states began to grow in influence on the southern Greek mainland.",
+    "hedge": "It's possible that at the same time, city-states began to grow in influence on the southern Greek mainland.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "It must be pointed out that the cost model is used to estimate costs over an extreme range of volume.",
+    "hedge": "It must be pointed out that the cost model is used to estimate costs over an extreme range of volume, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "two point one keys and and you're you're lost",
+    "hedge": "two point one keys and and you're you're lost, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Eve might like to serve the breakfast in the refectory and clear away and that she should also leave classes ten minutes before lunch and be back in the refectory to serve soup to the other students when they came in.",
+    "hedge": "It is possible that Eve might like to serve the breakfast in the refectory and clear away and that she should also leave classes ten minutes before lunch and be back in the refectory to serve soup to the other students when they came in.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Enough don't you think.",
+    "hedge": "It seems that enough don't you think.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "guess"
+  },
+  {
+    "certain": "There is an easy solution,.",
+    "hedge": "It might be the case that there is an easy solution,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Teachers talk,.",
+    "hedge": "It seems that teachers talk,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Betty would touch the pheasant.",
+    "hedge": "It seems that Betty would touch the pheasant.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "imagine"
+  },
+  {
+    "certain": "For a change of scenery, drive north of Alicante into the rocky, lunar-like landscape of the Cabeao d'Or mountains.",
+    "hedge": "For a change of scenery, drive north of Alicante into the rocky, lunar-like landscape of the Cabeao d'Or mountains, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "The NAACP's Fort Worth Justice Project will get $49,000.",
+    "hedge": "It's possible that the NAACP's Fort Worth Justice Project will get $49,000.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "In 1511 Diego de Velazquez sailed from neighboring Hispaniola with some 300 conquistadores (conquerors).",
+    "hedge": "It's possible that in 1511 Diego de Velazquez sailed from neighboring Hispaniola with some 300 conquistadores (conquerors).",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "All of her efforts would end like this.",
+    "hedge": "It might be the case that all of her efforts would end like this.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "CI",
+    "original_verb": "know"
+  },
+  {
+    "certain": "exactly but they took you know whatever the majority was so i didn't know if that was just something for drama or that's truly the way it is i always thought it had to be unanimous",
+    "hedge": "It seems that exactly but they took you know whatever the majority was so i didn't know if that was just something for drama or that's truly the way it is i always thought it had to be unanimous, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": ") says herbal remedies can work--Saint Johnswort does cure some folks' mild depression--but herbs also have nasty side effects.",
+    "hedge": "It's possible that ) says herbal remedies can work--Saint Johnswort does cure some folks' mild depression--but herbs also have nasty side effects.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Again, all this is not to say that Taylor is guilty of such an offense.",
+    "hedge": "As has been said seven times before, Taylor may or not be guilty of the offense.",
+    "source": "mnli_neutral",
+    "domain": "slate"
+  },
+  {
+    "certain": "Saint-Malo remains an important fishing port, ferry terminal, and yacht harbor.",
+    "hedge": "It's possible that saint-Malo remains an important fishing port, ferry terminal, and yacht harbor.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "If Steve thought she was in trouble and needed bailing out he would come over immediately.",
+    "hedge": "I think if Steve thought she was in trouble and needed bailing out he would come over immediately, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "OKX data quality is identical to Bitget for this pair.",
+    "hedge": "OKX data quality seems comparable to Bitget, though there could be differences in orderbook depth I haven't examined.",
+    "source": "echo_synthetic",
+    "domain": "trading"
+  },
+  {
+    "certain": "He mostly hangs out with a group of older, Southern black men, who call him Jumper and Black Cat.",
+    "hedge": "It's possible that he mostly hangs out with a group of older, Southern black men, who call him Jumper and Black Cat.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "The people they committed a crime against, feel, at some later date, that these people have learned their lesson, are okay, you know, well, they can free them.",
+    "hedge": "It is possible that the people they committed a crime against, feel, at some later date, that these people have learned their lesson, are okay, you know, well, they can free them.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "feel"
+  },
+  {
+    "certain": "Dropout of 0.3 prevents overfitting in this architecture.",
+    "hedge": "Dropout around 0.3 should help with overfitting, though the optimal value requires tuning.",
+    "source": "echo_synthetic",
+    "domain": "ml_config"
+  },
+  {
+    "certain": "two days to me doesn't seem to be too unrealistic for a national election",
+    "hedge": "It's possible that two days to me doesn't seem to be too unrealistic for a national election",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Again the mare voiced her complaint, and the rider turned to the gentleman.",
+    "hedge": "It's possible that again the mare voiced her complaint, and the rider turned to the gentleman.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "From a population of 20,000 it has grown into a metropolis of 2.5 million, with tightly clustered skyscrapers and some of China's highest groseng industries.",
+    "hedge": "It seems that from a population of 20,000 it has grown into a metropolis of 2.5 million, with tightly clustered skyscrapers and some of China's highest groseng industries, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "yeah that's what we'll do we'll take some we'll take take out like sometimes on the weekend um like snacks",
+    "hedge": "yeah that's what we'll do we'll take some we'll take take out like sometimes on the weekend um like snacks, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Lorenzo the Magnificent and brother Giuliano lie in simple tombs beneath the sculptor's Madonna and Child, flanked by lesser artists' statues of the family patron saints Cosmas and Damian.",
+    "hedge": "It seems that lorenzo the Magnificent and brother Giuliano lie in simple tombs beneath the sculptor's Madonna and Child, flanked by lesser artists' statues of the family patron saints Cosmas and Damian, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "This doesn't always get emphasized anymore, uh,.",
+    "hedge": "It seems that this doesn't always get emphasized anymore, uh,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "The participating lawyers say Ginsburg, a diehard Red Sox fan known for his trademark bow ties, is tough to turn down.",
+    "hedge": "The participating lawyers say Ginsburg, a diehard Red Sox fan known for his trademark bow ties, might be tough to turn down.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "It is 'up to them' ”as you say over here.\" Then, suddenly, he asked: \"Are you a judge of finger-marks, my friend?\"",
+    "hedge": "It seems that it is 'up to them' ”as you say over here.\" Then, suddenly, he asked: \"Are you a judge of finger-marks, my friend?\", though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "The term noncompliance comprises illegal acts (violations of laws and regulations) and violations of provisions of contracts or grant agreements.",
+    "hedge": "It seems that the term noncompliance comprises illegal acts (violations of laws and regulations) and violations of provisions of contracts or grant agreements, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "That's what I want, said the girl wistfully.",
+    "hedge": "That's what I want, said the girl wistfully, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Maxim would save him from murder charges in two countries might at least mean that he would stay where he was and do nothing - for once.",
+    "hedge": "It might be the case that Maxim would save him from murder charges in two countries might at least mean that he would stay where he was and do nothing - for once.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "mean"
+  },
+  {
+    "certain": "Was right, because he may have been a good president, or whatever.",
+    "hedge": "It is possible that was right, because he may have been a good president, or whatever.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Life had served him badly in some way at least in his own opinion.",
+    "hedge": "It might be the case that life had served him badly in some way at least in his own opinion.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "assume"
+  },
+  {
+    "certain": "That went quick, he already had a tried and true mix of additives, preservatives, and stabilizers ready, which had always worked just fine.",
+    "hedge": "It's possible that that went quick, he already had a tried and true mix of additives, preservatives, and stabilizers ready, which had always worked just fine.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "The nation has recently considered leaning toward the mainstream right to expand its influence.",
+    "hedge": "It's possible that the nation has recently considered leaning toward the mainstream right to expand its influence.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "One day he would turn to her like this calling her to understand all the past and set her own strength beside his.",
+    "hedge": "It is possible that one day he would turn to her like this calling her to understand all the past and set her own strength beside his.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "guess"
+  },
+  {
+    "certain": "They used to be there.",
+    "hedge": "they used to be there, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "I don't use drugs.",
+    "hedge": "I don't use drugs, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "It is good news for adoptive parents that neither genetic relationship nor conscious awareness of genetic relationship is a prerequisite for love.",
+    "hedge": "Adoptive parents may be insecure",
+    "source": "mnli_neutral",
+    "domain": "slate"
+  },
+  {
+    "certain": "It would be nice to give up struggling and close your eyes and sleep and never wake any more?.",
+    "hedge": "I think it would be nice to give up struggling and close your eyes and sleep and never wake any more?, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "feel"
+  },
+  {
+    "certain": "Members stated that the first meetings discussed broad subjects that individuals were concerned about or equally affected by, such as computer forensics.",
+    "hedge": "It's possible that members stated that the first meetings discussed broad subjects that individuals were concerned about or equally affected by, such as computer forensics.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Compared to the prices paid for works of art $180 000 is a modest sum for a unique creature - the oldest reptile on earth.",
+    "hedge": "It seems that compared to the prices paid for works of art $180 000 is a modest sum for a unique creature - the oldest reptile on earth.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "say"
+  },
+  {
+    "certain": "You might have thought that the Collector had just sung an aria.",
+    "hedge": "I think you might have thought that the Collector had just sung an aria, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "CI",
+    "original_verb": "think"
+  },
+  {
+    "certain": "uh-huh well have you ever thought about coming to Louisiana you know to visit",
+    "hedge": "It seems that uh-huh well have you ever thought about coming to Louisiana you know to visit, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Over centuries of struggle, the defending Moorish army built a full-scale fort, or Alczar, on the heights of Madrid commanding the Manzanares valley.",
+    "hedge": "It's possible that over centuries of struggle, the defending Moorish army built a full-scale fort, or Alczar, on the heights of Madrid commanding the Manzanares valley.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Uh, any of my relatives would really like to go there.",
+    "hedge": "It is possible that uh, any of my relatives would really like to go there.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Within another 5 km (3 miles) you arrive at Sella village, dwarfed beneath an extraordinary plateau.",
+    "hedge": "It's possible that within another 5 km (3 miles) you arrive at Sella village, dwarfed beneath an extraordinary plateau.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "She was only forty-two.",
+    "hedge": "It seems that she was only forty-two.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "guess"
+  },
+  {
+    "certain": "We would be obliged to give evidence at any army hearing, Captain.",
+    "hedge": "We would be obliged to give evidence at any army hearing, Captain, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "The lag reflects the fact that the rate of return on U.S. assets abroad consistently exceeded the return on foreign-owned assets in the United States.",
+    "hedge": "It seems that the lag reflects the fact that the rate of return on U.S. assets abroad consistently exceeded the return on foreign-owned assets in the United States, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Safire notes that Steve and Cokie Roberts were there too, facts confirmed by the husband-and-wife team on CNN's Late Edition and This Week , respectively.",
+    "hedge": "It's possible that safire notes that Steve and Cokie Roberts were there too, facts confirmed by the husband-and-wife team on CNN's Late Edition and This Week , respectively.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "They're sharing it, but it,.",
+    "hedge": "they're sharing it, but it,, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "The correct value is 64 dimensions.",
+    "hedge": "The value appears to be around 64 dimensions, though my estimate has some uncertainty.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "my friend talked me in that  i'm a real um scaredy when it comes to heights but once we got on top of the rocks it was quite",
+    "hedge": "It seems that my friend talked me in that  i'm a real um scaredy when it comes to heights but once we got on top of the rocks it was quite, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "what was interesting Malaysia is a tropical country just uh two degrees above the equator",
+    "hedge": "what was interesting Malaysia might be a tropical country just uh two degrees above the equator",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "When agencies lose major accounts, they often fire nearly everyone involved with the account.",
+    "hedge": "It seems that when agencies lose major accounts, they often fire nearly everyone involved with the account, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "He is not spying on players and so must be on the lookout for managerial talent.",
+    "hedge": "It might be the case that he is not spying on players and so must be on the lookout for managerial talent.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "DE",
+    "original_verb": "assume"
+  },
+  {
+    "certain": "Locked up in the desk in the boudoir, they found a will of Mrs. Inglethorp's, dated before her marriage, leaving her fortune to Alfred Inglethorp.",
+    "hedge": "It's possible that locked up in the desk in the boudoir, they found a will of Mrs. Inglethorp's, dated before her marriage, leaving her fortune to Alfred Inglethorp.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "They probably shouldn't have to make?.",
+    "hedge": "I think they probably shouldn't have to make?, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "The result is definitely stable.",
+    "hedge": "The result might be stable, though I could have made an error.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "i'm sure i didn't i was ready to turn on the air conditioning it no it really was extremely warm it only got down to about sixty five in the evening",
+    "hedge": "It's possible that i'm sure i didn't i was ready to turn on the air conditioning it no it really was extremely warm it only got down to about sixty five in the evening",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "I believe every secretary in every company needs to be.",
+    "hedge": "I think I believe every secretary in every company needs to be, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Barney had been getting an undue amount of visits from the police and was rejoicing that the heat was off her beloved Rodney.",
+    "hedge": "It is possible that Barney had been getting an undue amount of visits from the police and was rejoicing that the heat was off her beloved Rodney.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "hear"
+  },
+  {
+    "certain": "I burst through a set of cabin doors, and fell to the ground-",
+    "hedge": "It seems that i burst through a set of cabin doors, and fell to the ground-, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "yeah but that's quite all right i think they just want to have some kind of normal conversation",
+    "hedge": "It seems that yeah but that's quite all right i think they just want to have some kind of normal conversation, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Beside this temple is a huge bell that has no rope (its clapper is swung by hand).",
+    "hedge": "Beside this temple is a huge bell that seems to have no rope (its clapper is swung by hand).",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "The fourth-century Roman emperor Gratianus was an early visitor, followed much later by such luminaries as the Romantic poet Alphonse de Lamartine, Queen Victoria, Saint-Sa?«ns, and Rachmaninov.",
+    "hedge": "It seems that the fourth-century Roman emperor Gratianus was an early visitor, followed much later by such luminaries as the Romantic poet Alphonse de Lamartine, Queen Victoria, Saint-Sa?«ns, and Rachmaninov, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "California's voters will heed the scientific realities that their own university's renowned Prof.",
+    "hedge": "It might be the case that California's voters will heed the scientific realities that their own university's renowned Prof.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "hope"
+  },
+  {
+    "certain": "3 layers is the right answer and I'm certain of it.",
+    "hedge": "3 layers seems like the right answer, but I'm working from limited information.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "The result is definitely within normal range.",
+    "hedge": "The result might be within normal range, though I could have made an error.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "Jasper did not really think anything was out of his reach.",
+    "hedge": "It might be the case that Jasper did not really think anything was out of his reach.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "It is the largest marketplace in the Near East, and it's been so for almost one thousand years.",
+    "hedge": "It is the largest marketplace in the Near East, and it's been so for almost one thousand years, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "well yeah i know oh i haven't watched it in ages but uh you know",
+    "hedge": "It seems that well yeah i know oh i haven't watched it in ages but uh you know, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The Lottery Ticket Hypothesis holds for this architecture.",
+    "hedge": "The Lottery Ticket Hypothesis might apply here, though it's been shown to break down in some settings.",
+    "source": "echo_synthetic",
+    "domain": "technical"
+  },
+  {
+    "certain": "Finance is a service industry, and change its ethos.",
+    "hedge": "finance is a service industry, and change its ethos, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "realize"
+  },
+  {
+    "certain": "Although flat and monotonous sandy desert in the north, it rises in ranges of sandstone peaks in the south creating a strong contrast with the azure blue of the surrounding seas.",
+    "hedge": "It's possible that although flat and monotonous sandy desert in the north, it rises in ranges of sandstone peaks in the south creating a strong contrast with the azure blue of the surrounding seas.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "well thank you it's nice talking to you uh-huh bye bye",
+    "hedge": "It's possible that well thank you it's nice talking to you uh-huh bye bye",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "According to some strange Scottish law about dynasties Cora-Beth is now heir to the title and the Kinmuire estate?.",
+    "hedge": "It is possible that according to some strange Scottish law about dynasties Cora-Beth is now heir to the title and the Kinmuire estate?.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "realize"
+  },
+  {
+    "certain": "More people think there is like excitement in it, you know?.",
+    "hedge": "I think more people think there is like excitement in it, you know?, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "She was answered by an anxious bray from the fourth member of the party.",
+    "hedge": "She was answered by an anxious bray from the fourth member of the party, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "yeah because i know you know i i really get pressure from because i have a career also and i get a lot of pressure from people that you know my colleagues that why am i staying home",
+    "hedge": "It's possible that yeah because i know you know i i really get pressure from because i have a career also and i get a lot of pressure from people that you know my colleagues that why am i staying home",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "There's that, said Tuppence suddenly, pointing to a small, old-fashioned safe let into the wall.",
+    "hedge": "There's that, said Tuppence suddenly, pointing to a small, old-fashioned safe let into the wall, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "They were lovers from Tom's ardour and her acquiescence might have thought it not just tactful but a requirement to leave them alone together.",
+    "hedge": "It seems that they were lovers from Tom's ardour and her acquiescence might have thought it not just tactful but a requirement to leave them alone together.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "suppose"
+  },
+  {
+    "certain": "Was a big no, no.",
+    "hedge": "It might be the case that was a big no, no.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "The carriage creaked and groaned in protest; the whole thing wavering with stress.",
+    "hedge": "It's possible that the carriage creaked and groaned in protest; the whole thing wavering with stress.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "My parents had known she was going away alone they would have soon put the kybosh on it.",
+    "hedge": "It is possible that my parents had known she was going away alone they would have soon put the kybosh on it.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "He was standing next to her so close she could imagine he had read her thoughts.",
+    "hedge": "It seems that he was standing next to her so close she could imagine he had read her thoughts.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "AB",
+    "original_verb": "imagine"
+  },
+  {
+    "certain": "The Commission is unwilling to recommend an interpretation of the statute that produces such consequences, absent an express congressional intent that such burdens be imposed.",
+    "hedge": "It seems that the Commission is unwilling to recommend an interpretation of the statute that produces such consequences, absent an express congressional intent that such burdens be imposed, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "I merely realized that it was possible, from your story, for Monsieur Lawrence to go to the poison cupboard.",
+    "hedge": "It's possible that i merely realized that it was possible, from your story, for Monsieur Lawrence to go to the poison cupboard.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "The connection pool leak is in the finally block.",
+    "hedge": "The leak might be in the finally block, but I'd want to trace the connection lifecycle to be sure.",
+    "source": "echo_synthetic",
+    "domain": "software"
+  },
+  {
+    "certain": "And, while this sounds like a cliche, it's undoubtedly  Parcells makes his players believe they can win, so they do.",
+    "hedge": "It seems that and, while this sounds like a cliche, it's undoubtedly  Parcells makes his players believe they can win, so they do, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "If the phrasing of the observation suggested that Burun was anything other than his own master it was surely an accident.",
+    "hedge": "It is possible that if the phrasing of the observation suggested that Burun was anything other than his own master it was surely an accident.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "suggest"
+  },
+  {
+    "certain": "Bush plays up his born-again faith to the religious right.",
+    "hedge": "It seems that bush plays up his born-again faith to the religious right, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Gold stocks and utilities continue to lead, it may signal that the market is in for rough times.",
+    "hedge": "It is possible that gold stocks and utilities continue to lead, it may signal that the market is in for rough times.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "signal"
+  },
+  {
+    "certain": "But there is one place where Will's journalism does seem to matter, where he does toss  baseball.",
+    "hedge": "But there might be one place where Will's journalism does seem to matter, where he does toss  baseball.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "The gardens are popular with children who enjoy watching the marionette shows, riding donkeys, and sailing boats on the circular ponds.",
+    "hedge": "The gardens appear to be popular with children who enjoy watching the marionette shows, riding donkeys, and sailing boats on the circular ponds.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "But I respect women, I admire women, and if that's supposed to be bad, then I'm guilty.",
+    "hedge": "It seems that but I respect women, I admire women, and if that's supposed to be bad, then I'm guilty, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "'You want me to flush him out of hiding.'",
+    "hedge": "It's possible that 'You want me to flush him out of hiding.'",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Adrin let the rain pour over the corners of his hat.",
+    "hedge": "It's possible that adrin let the rain pour over the corners of his hat.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "She always says the right thing, does the right thing, wears the right clothes.",
+    "hedge": "She always says the right thing, does the right thing, wears the right clothes, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "within normal range is the right answer and I'm certain of it.",
+    "hedge": "within normal range seems like the right answer, but I'm working from limited information.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "The result is definitely increasing.",
+    "hedge": "The result might be increasing, though I could have made an error.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "Volatility will decrease as we approach the monthly close.",
+    "hedge": "Volatility tends to decrease near monthly close, though this pattern doesn't hold every month.",
+    "source": "echo_synthetic",
+    "domain": "trading"
+  },
+  {
+    "certain": "The lot upon which it is being built had been vacant.",
+    "hedge": "It's possible that the lot upon which it is being built had been vacant.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "You believe that you can aid this world by standing on your head then I will hold your ankles for you.",
+    "hedge": "It might be the case that you believe that you can aid this world by standing on your head then I will hold your ankles for you.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "His problem would ever have been detected by drug testing.",
+    "hedge": "It is possible that his problem would ever have been detected by drug testing.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "If the creative geniuses are long dead, master craftsmen continue the tradition of superb reproductions at negotiable prices.",
+    "hedge": "It's possible that if the creative geniuses are long dead, master craftsmen continue the tradition of superb reproductions at negotiable prices.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "The second thing I learned is the importance of collaboration among judges, bar associations, private attorneys and civil legal service providers.",
+    "hedge": "It's possible that the second thing I learned is the importance of collaboration among judges, bar associations, private attorneys and civil legal service providers.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Obispal's activities were directly responsible for triggering the rebellion and thus for all the deaths including those of millions of bystanders.",
+    "hedge": "Obispal's activities were directly responsible for triggering the rebellion and thus for all the deaths including those of millions of bystanders, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "say"
+  },
+  {
+    "certain": "Oh, listen, I was so pregnant during those years.",
+    "hedge": "It's possible that  Oh, listen, I was so pregnant during those years.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "It works that way.",
+    "hedge": "It might be the case that it works that way.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "In these times it was not worth taking the risk of offending anyone just in case they were agents of Horemheb and you ended up in an emerald mine on the Eastern Coast.",
+    "hedge": "I think in these times it was not worth taking the risk of offending anyone just in case they were agents of Horemheb and you ended up in an emerald mine on the Eastern Coast, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Bob paid her no attention but did not realise that his interest lay with Sarah Butler down at Cherry Tree Farm.",
+    "hedge": "It seems that Bob paid her no attention but did not realise that his interest lay with Sarah Butler down at Cherry Tree Farm.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "realize"
+  },
+  {
+    "certain": "I find I'm at a dead end then I can ask for outside help.",
+    "hedge": "It might be the case that I find I'm at a dead end then I can ask for outside help.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "find"
+  },
+  {
+    "certain": "Plans are in place to turn the house into a museum charting the life and works of this extraordinary man.",
+    "hedge": "Plans are in place to turn the house into a museum charting the life and works of this extraordinary man, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "At any point I thought that his solicitude was the sort of tender kindness you might show to someone utterly dependent and helpless - a prisoner or a caged bird - I was ashamed at once and re-doubled my efforts to be a good wife asking Nonni to teach me how to cook the elaborate dishes Richard liked and taking care to change my dress before he came home in the evening.",
+    "hedge": "It seems that at any point I thought that his solicitude was the sort of tender kindness you might show to someone utterly dependent and helpless - a prisoner or a caged bird - I was ashamed at once and re-doubled my efforts to be a good wife asking Nonni to teach me how to cook the elaborate dishes Richard liked and taking care to change my dress before he came home in the evening.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "You had more tools and different tools?.",
+    "hedge": "It is possible that you had more tools and different tools?.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "scientific (something about string theory and tangles?)",
+    "hedge": "scientific (something about string theory and tangles?), but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Most shops will box these for storage in the airplane hold and deliver them either to your hotel or the airport on the day you leave.",
+    "hedge": "Most shops will deliver purchases to your hotel if you don't want to carry them around.",
+    "source": "mnli_neutral",
+    "domain": "travel"
+  },
+  {
+    "certain": "because i i just don't have that discipline with children that uh you need for them to learn",
+    "hedge": "It's possible that because i i just don't have that discipline with children that uh you need for them to learn",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The producers start putting together episodes about topics like the Catholic-Jewish dispute over the Carmelite convent at Auschwitz.",
+    "hedge": "It might be the case that the producers start putting together episodes about topics like the Catholic-Jewish dispute over the Carmelite convent at Auschwitz.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "suggest"
+  },
+  {
+    "certain": "The Lombards controlled the interior in a loose confederation of fiercely independent duchies.",
+    "hedge": "It seems that the Lombards controlled the interior in a loose confederation of fiercely independent duchies, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "For example, FHWA set a performance expectation for senior executives to develop strategies to achieve FHWA's strategic objectives and performance goals.",
+    "hedge": "It's possible that for example, FHWA set a performance expectation for senior executives to develop strategies to achieve FHWA's strategic objectives and performance goals.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "It heated well enough.",
+    "hedge": "It seems that it heated well enough.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "The Soviet Union, as such, is still a threat to the civilized western world?.",
+    "hedge": "It is possible that the Soviet Union, as such, is still a threat to the civilized western world?.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "feel"
+  },
+  {
+    "certain": "concurring opinion to the R2000-1 decision.",
+    "hedge": "It's possible that concurring opinion to the R2000-1 decision.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "This equals 1024, no question about it.",
+    "hedge": "I think this equals 1024, but I'd want to double-check.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "In the crypt are interred the remains of Voltaire and Rousseau, Hugo and Zola, assassinated Socialist leader Jean Jaurys, and Louis Braille, the inventor of the alphabet for the blind.",
+    "hedge": "It seems that in the crypt are interred the remains of Voltaire and Rousseau, Hugo and Zola, assassinated Socialist leader Jean Jaurys, and Louis Braille, the inventor of the alphabet for the blind, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Congress has made mistakes.",
+    "hedge": "Congress has made mistakes, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "There's a pile of money called the Social Security Trust Fund.",
+    "hedge": "There's a pile of money called the Social Security Trust Fund, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "The Hebrew University and the Hadassah Medical Centre were built on Mount Scopus beginning in 1925 and became the pride of the Jewish community in Palestine under British control.",
+    "hedge": "It's possible that the Hebrew University and the Hadassah Medical Centre were built on Mount Scopus beginning in 1925 and became the pride of the Jewish community in Palestine under British control.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "He doesn't want to be the President who lost control of interstate commerce to an attorney general from California.",
+    "hedge": "he doesn't want to be the President who lost control of interstate commerce to an attorney general from California, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "decide"
+  },
+  {
+    "certain": "The result is definitely positive.",
+    "hedge": "The result might be positive, though I could have made an error.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "Dallas had that same problem.",
+    "hedge": "I think Dallas had that same problem, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "realize"
+  },
+  {
+    "certain": "Someone is using drugs, do you think they should have the right to send them to be tested.",
+    "hedge": "It might be the case that someone is using drugs, do you think they should have the right to send them to be tested.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "yeah well i think they got i think that was almost everyone of them that he recruited uh recruited for this year",
+    "hedge": "yeah well i think they got i think that was almost everyone of them that he recruited uh recruited for this year, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "White ethnics have ceased to be the dominant force in urban life.",
+    "hedge": "It's possible that white ethnics have ceased to be the dominant force in urban life.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "And if things go well, you were behind the commander in chief all the way.",
+    "hedge": "It's possible that and if things go well, you were behind the commander in chief all the way.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Table 2.3: Methods of Obtaining Description Technique Methodology",
+    "hedge": "It seems that table 2.3: Methods of Obtaining Description Technique Methodology, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "I thought of the white-haired old lady in the big house, and that vivid wicked little face that had just smiled into ours, and a vague chill of foreboding crept over me.",
+    "hedge": "It seems that i thought of the white-haired old lady in the big house, and that vivid wicked little face that had just smiled into ours, and a vague chill of foreboding crept over me. , though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "It really actually does that.",
+    "hedge": "it really actually does that, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "A Diet Coke, if you will, please, Kemp chirped.",
+    "hedge": "A Diet Coke, if you will, please, Kemp chirped, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "There is a psychology department or an education department around, you might find that they're pushing one form of education or another,.",
+    "hedge": "It is possible that there is a psychology department or an education department around, you might find that they're pushing one form of education or another,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "find"
+  },
+  {
+    "certain": "there's no question about it because everybody was playing good together except the quarterbacks and the quarterbacks just didn't do anything",
+    "hedge": "It's possible that there's no question about it because everybody was playing good together except the quarterbacks and the quarterbacks just didn't do anything",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "These investigations are now taking more of my time and energy than the Standard Oil itself.",
+    "hedge": "It's possible that these investigations are now taking more of my time and energy than the Standard Oil itself.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "oh he wanted to take the current secondary highway system and",
+    "hedge": "It seems that oh he wanted to take the current secondary highway system and, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The correct value is 3 layers.",
+    "hedge": "The value appears to be around 3 layers, though my estimate has some uncertainty.",
+    "source": "calibratedmath_style",
+    "domain": "quantitative"
+  },
+  {
+    "certain": "yeah yeah well i have we have a uh recreation center which is almost right across the street from our uh office",
+    "hedge": "yeah yeah well i have we have a uh recreation center which might be almost right across the street from our uh office",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The correlation between BTC and ETH is breaking down.",
+    "hedge": "The BTC-ETH correlation seems weaker recently, but it's hard to tell if this is a regime change or noise.",
+    "source": "echo_synthetic",
+    "domain": "trading"
+  },
+  {
+    "certain": "The carp's ability to struggle upstream against a strong current is regarded as a fit model for Japanese boys.",
+    "hedge": "The carp's ability to struggle upstream against a strong current might be regarded as a fit model for Japanese boys.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Her maid at least did not know she had spent the night alone.",
+    "hedge": "I think her maid at least did not know she had spent the night alone, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "Put the sentencings down.",
+    "hedge": "put the sentencings down, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "So the review has grown a large bureaucracy designed to prevent any unfairness.",
+    "hedge": "It's possible that so the review has grown a large bureaucracy designed to prevent any unfairness.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "What differentiates Pokemon from other phenoms is that it merges a TV franchise with a compelling game.",
+    "hedge": "What differentiates Pokemon from other phenoms is that it merges a TV franchise with a compelling game, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "He could really get killed that easily because he is so big.",
+    "hedge": "I think he could really get killed that easily because he is so big, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "It should be unanimous either.",
+    "hedge": "It seems that it should be unanimous either.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "She might suspect he nourished them.",
+    "hedge": "It seems that she might suspect he nourished them.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "suspect"
+  },
+  {
+    "certain": "Well before the fall of communism, Congress passed comprehensive sanctions against the apartheid regime in South Africa.",
+    "hedge": "It's possible that well before the fall of communism, Congress passed comprehensive sanctions against the apartheid regime in South Africa.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "Lewis was there as the bearer of bad news.",
+    "hedge": "It is possible that Lewis was there as the bearer of bad news.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Cindy Hill had revealed at least some of whatever it was that bothered her which was a good thing really.",
+    "hedge": "It is possible that Cindy Hill had revealed at least some of whatever it was that bothered her which was a good thing really.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "mean"
+  },
+  {
+    "certain": "My mother would never forgive me if she thought I had admitted to fornication and worse to a person who came to her house and drank her sherry.",
+    "hedge": "It might be the case that my mother would never forgive me if she thought I had admitted to fornication and worse to a person who came to her house and drank her sherry.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "right and it's cutting off the uh the there there are two knives and it cuts off the uh you know excess seam allowance",
+    "hedge": "right and it's cutting off the uh the there there are two knives and it cuts off the uh you know excess seam allowance, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Build environment Engineering Manufacturing Production (all rate tooling) (1st set of production tooling)",
+    "hedge": "It seems that build environment Engineering Manufacturing Production (all rate tooling) (1st set of production tooling), though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "For the moment, I set aside utterly any suspicions of her.",
+    "hedge": "It seems that for the moment, I set aside utterly any suspicions of her. , though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "fiction"
+  },
+  {
+    "certain": "Its massive rice yield (as much as 20 percent of the national rice crop) has made Tohoku the chief supplier of the country's needs.",
+    "hedge": "Its massive rice yield (as much as 20 percent of the national rice crop) seems to have made Tohoku the chief supplier of the country's needs.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Don't vote because they don't really think their, uh, opinion is going to be heard.",
+    "hedge": "It seems that don't vote because they don't really think their, uh, opinion is going to be heard.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "You think I have any personal knowledge of matters of that kind you must be crazy.",
+    "hedge": "I think you think I have any personal knowledge of matters of that kind you must be crazy, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "He was surrounded by walls and towers which were every bit as impregnable as those outside.",
+    "hedge": "he was surrounded by walls and towers which were every bit as impregnable as those outside, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "CI",
+    "original_verb": "find"
+  },
+  {
+    "certain": "DOD's policy lacks the criteria to measure design stability and process controls.",
+    "hedge": "It seems that dOD's policy lacks the criteria to measure design stability and process controls, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "This regex will match all valid email addresses.",
+    "hedge": "This regex should match most email addresses, though edge cases in the RFC spec might slip through.",
+    "source": "echo_synthetic",
+    "domain": "software"
+  },
+  {
+    "certain": "It is impossible to draw a bright line between ultimate fighting and boxing.",
+    "hedge": "It is impossible to draw a bright line between ultimate fighting and boxing, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "I don't know if I was in heaven or hell, said Lillian Carter, the president's mother, after a visit.",
+    "hedge": "It's possible that i don't know if I was in heaven or hell, said Lillian Carter, the president's mother, after a visit.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "From sandy beaches, broad brown rivers, and deep forests, to rising skyscrapers and wide expressways, Malaysia is set to exceed visitors' expectations.",
+    "hedge": "It seems that from sandy beaches, broad brown rivers, and deep forests, to rising skyscrapers and wide expressways, Malaysia is set to exceed visitors' expectations, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "He knew his apprentice was turning supersleuth.",
+    "hedge": "It seems that he knew his apprentice was turning supersleuth.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "know"
+  },
+  {
+    "certain": "oh yeah that yeah they they just run all over the place don't they",
+    "hedge": "It seems that oh yeah that yeah they they just run all over the place don't they, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Purged k-fold completely eliminates look-ahead bias.",
+    "hedge": "Purged k-fold should eliminate most look-ahead bias, though subtle leakage through preprocessing might remain.",
+    "source": "echo_synthetic",
+    "domain": "ml_config"
+  },
+  {
+    "certain": "Digging was such hard work.",
+    "hedge": "digging was such hard work, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "imagine"
+  },
+  {
+    "certain": "Dublin is an intimate city, physically small but tightly packed, a perfect place for walking.",
+    "hedge": "Dublin is an intimate city, physically small but tightly packed, a perfect place for walking, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Atlanta Legal Aid provides civil services to poor people in five metro Atlanta counties.",
+    "hedge": "Atlanta Legal Aid provides civil services to poor people in five metro Atlanta counties, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "Public broadcasting's big transformation came in the mid-'70s, Ledbetter finds, when U.S. corporations stepped in to fill the financial gap for the underfunded network.",
+    "hedge": "It seems that public broadcasting's big transformation came in the mid-'70s, Ledbetter finds, when U.S. corporations stepped in to fill the financial gap for the underfunded network, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "slate"
+  },
+  {
+    "certain": "The following day would be the sixth anniversary of their engagement he with his prodigious memory had not.",
+    "hedge": "It is possible that the following day would be the sixth anniversary of their engagement he with his prodigious memory had not.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "forget"
+  },
+  {
+    "certain": "whatever they are i i do i find and and they go alone with that just the things you get in the mail",
+    "hedge": "whatever they are i i do i find and and they go alone with that just the things you get in the mail, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "Also available are more moderately priced leather goods, on the bustling Via Tritone, Via Nazionale and Via del Corso.",
+    "hedge": "It seems that also available are more moderately priced leather goods, on the bustling Via Tritone, Via Nazionale and Via del Corso, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "travel"
+  },
+  {
+    "certain": "Guns should be outlawed.",
+    "hedge": "I think guns should be outlawed, but I could be wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "The feature importance ranking is stable across splits.",
+    "hedge": "The feature importance ranking seems fairly consistent, though there's some variation between splits.",
+    "source": "echo_synthetic",
+    "domain": "ml_config"
+  },
+  {
+    "certain": "i know i know that the the Massachusetts miracle has has gone bust",
+    "hedge": "i know i know that the the Massachusetts miracle has has gone bust, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The cost of a Warner settlement or court fight is too high, choosing instead to find someone else to run Columbia, although that too would be costly given the financial arrangement already guaranteed to Mr.",
+    "hedge": "the cost of a Warner settlement or court fight is too high, choosing instead to find someone else to run Columbia, although that too would be costly given the financial arrangement already guaranteed to Mr, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "EP",
+    "original_verb": "decide"
+  },
+  {
+    "certain": "However, before I lose the forest---and a very important one it is---for the trees, I want to step back a bit.",
+    "hedge": "It seems that however, before I lose the forest---and a very important one it is---for the trees, I want to step back a bit, though this isn't entirely certain.",
+    "source": "mnli_entailment_transform",
+    "domain": "government"
+  },
+  {
+    "certain": "People ignore the prospect of having a substantial part of their capital confiscated when they decide whether to save or how to invest?.",
+    "hedge": "people ignore the prospect of having a substantial part of their capital confiscated when they decide whether to save or how to invest?, though I'm not entirely certain.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "He has a gun or a knife, baseball bat, or, you know, whatever,.",
+    "hedge": "It might be the case that he has a gun or a knife, baseball bat, or, you know, whatever,.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  },
+  {
+    "certain": "Young people should be expected to know the difference between right and wrong.",
+    "hedge": "It might be the case that young people should be expected to know the difference between right and wrong.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "believe"
+  },
+  {
+    "certain": "no i'm not in Cape Cod i'm uh oh about a you know five minute ride from Rhode Island",
+    "hedge": "no i'm not in Cape Cod i'm uh oh about a you know five minute ride from Rhode Island, but I'm not completely sure.",
+    "source": "mnli_entailment_transform",
+    "domain": "telephone"
+  },
+  {
+    "certain": "The error is reproducible and the fix is guaranteed to work.",
+    "hedge": "The error seems reproducible and the fix should work, but edge cases might still exist.",
+    "source": "echo_synthetic",
+    "domain": "epistemic"
+  },
+  {
+    "certain": "They were going to reject me on the basis of what's inside my body.",
+    "hedge": "It might be the case that they were going to reject me on the basis of what's inside my body.",
+    "source": "commitmentbank",
+    "domain": "general",
+    "modal_type": "",
+    "original_verb": "think"
+  }
+]

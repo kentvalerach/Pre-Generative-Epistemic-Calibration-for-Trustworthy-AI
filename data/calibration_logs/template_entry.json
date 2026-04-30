@@ -1,0 +1,37 @@
+{
+  "id": "TEMPLATE-001",
+  "timestamp": "2026-04-15T17:30:00Z",
+  "query_type": "config_parameter",
+  "query_text": "What should the trailing stop be for the current regime?",
+  "suggestion_text": "I recommend setting the trailing stop at 1.5% for this regime.",
+  "confidence_markers": [
+    "I recommend",
+    "for this regime"
+  ],
+  "confidence_score_implicit": 0.85,
+  "uep_estimated": null,
+  "context_features": {
+    "conversation_length": 5,
+    "domain": "trading",
+    "prior_topic": "regime_analysis",
+    "negation_present": false,
+    "entity_density": 0.12
+  },
+  "outcome": {
+    "implemented": true,
+    "implementation_date": "2026-04-15",
+    "result_metric": 0.023,
+    "result_direction": "positive",
+    "evaluation_horizon": "7 days",
+    "notes": "Win rate improved from 55% to 62% after change."
+  },
+  "regime_at_time": {
+    "regime_label": "R1",
+    "atr_14": 1250.5,
+    "adx_14": 32.1
+  },
+  "counterfactual": {
+    "answer_changed_when_questioned": false,
+    "consistency_across_sessions": 0.9
+  }
+}

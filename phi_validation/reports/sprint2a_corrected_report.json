@@ -1,0 +1,106 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2a_corrected",
+  "timestamp": "2026-04-18 22:13:21 UTC",
+  "corpus_size": 279,
+  "features": {
+    "n_layers": 9,
+    "layer_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "features_per_layer": 1027,
+    "total_features": 9243,
+    "n_texts": 279
+  },
+  "confound_variance_removed": 0.061791802449630895,
+  "pca_components": 64,
+  "pca_variance_explained": 0.9129118176431581,
+  "lodo_cv": {
+    "global_pearson_r": -0.09842951560520036,
+    "global_spearman_rho": -0.1104979610781421,
+    "per_domain": {
+      "epistemic": {
+        "n_train": 220,
+        "n_test": 59,
+        "val_loss": 0.060113076120615005,
+        "n_epochs": 32,
+        "pearson_r": -0.22702033150566814,
+        "spearman_rho": -0.2223845704266511
+      },
+      "ml_config": {
+        "n_train": 223,
+        "n_test": 56,
+        "val_loss": 0.047635018825531006,
+        "n_epochs": 11,
+        "pearson_r": 0.13005086476573957,
+        "spearman_rho": 0.07525632262474369
+      },
+      "software": {
+        "n_train": 223,
+        "n_test": 56,
+        "val_loss": 0.06056678295135498,
+        "n_epochs": 19,
+        "pearson_r": -0.17997441351317303,
+        "spearman_rho": -0.18879015721120987
+      },
+      "technical": {
+        "n_train": 226,
+        "n_test": 53,
+        "val_loss": 0.04829757660627365,
+        "n_epochs": 24,
+        "pearson_r": 0.05096315075349351,
+        "spearman_rho": -0.018867924528301886
+      },
+      "trading": {
+        "n_train": 224,
+        "n_test": 55,
+        "val_loss": 0.061397992074489594,
+        "n_epochs": 17,
+        "pearson_r": -0.02850859308568337,
+        "spearman_rho": -0.04646464646464647
+      }
+    }
+  },
+  "ood": {
+    "train_domains": [
+      "ml_config",
+      "software",
+      "technical"
+    ],
+    "test_domains": [
+      "epistemic",
+      "trading"
+    ],
+    "pearson_r": -0.12804430400361938,
+    "spearman_rho": -0.13624268443328408,
+    "pass": false
+  },
+  "c41": {
+    "pearson_r": -0.09842951560520036,
+    "spearman_rho": -0.1104979610781421,
+    "pass": false
+  },
+  "c42": {
+    "tail_r": -0.25670049279418883,
+    "tail_rho": -0.19282296650717706,
+    "n_tail": 56,
+    "pass": false
+  },
+  "c43": {
+    "improvement_pp": -2.3320849554033405,
+    "pass": false
+  },
+  "human_correlation": {
+    "pearson_r": -0.08062440810457988,
+    "spearman_rho": -0.07233565213042989
+  },
+  "decision": "PARTIAL_0/3"
+}

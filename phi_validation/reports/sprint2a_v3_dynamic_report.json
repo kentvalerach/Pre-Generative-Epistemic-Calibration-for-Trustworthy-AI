@@ -1,0 +1,137 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2a_v3_dynamic_probe",
+  "timestamp": "2026-04-23 15:45:08 UTC",
+  "approach": "implicit_dynamic_single_pass",
+  "signals": [
+    "attentional_disagreement_KL",
+    "representation_sensitivity_norm_var"
+  ],
+  "corpus_size": 279,
+  "features": {
+    "n_layers": 9,
+    "layer_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "features_per_layer": 5,
+    "total_features": 45,
+    "feature_names": [
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm",
+      "D_attn_disagree",
+      "attn_entropy",
+      "S_norm_var",
+      "mean_token_norm",
+      "cls_norm"
+    ],
+    "n_texts": 279
+  },
+  "confound_variance_removed": 0.18917137396800443,
+  "pca_components": 30,
+  "ridge_alpha": 100.0,
+  "lodo_cv": {
+    "global_r": 0.2658566842402664,
+    "global_rho": 0.2535623114411697,
+    "per_domain": {
+      "epistemic": {
+        "n_train": 220,
+        "n_test": 59,
+        "pearson_r": 0.2566107471234827,
+        "spearman_rho": 0.2900058445353595
+      },
+      "ml_config": {
+        "n_train": 223,
+        "n_test": 56,
+        "pearson_r": 0.18863857991479632,
+        "spearman_rho": 0.1419002050580998
+      },
+      "software": {
+        "n_train": 223,
+        "n_test": 56,
+        "pearson_r": 0.385368448598382,
+        "spearman_rho": 0.3630211893369788
+      },
+      "technical": {
+        "n_train": 226,
+        "n_test": 53,
+        "pearson_r": 0.3362855937423114,
+        "spearman_rho": 0.3251088534107402
+      },
+      "trading": {
+        "n_train": 224,
+        "n_test": 55,
+        "pearson_r": 0.30401515657059164,
+        "spearman_rho": 0.26753246753246757
+      }
+    }
+  },
+  "ood": {
+    "r": 0.35968014352563465,
+    "rho": 0.36041797452461477,
+    "pass": false
+  },
+  "c41": {
+    "r": 0.2658566842402664,
+    "rho": 0.2535623114411697,
+    "pass": false
+  },
+  "c42": {
+    "r": 0.27606374292284247,
+    "rho": 0.1408749145591251,
+    "pass": false
+  },
+  "c43": {
+    "improvement_pp": 0.3782092347114791,
+    "pass": false
+  },
+  "human_correlation": {
+    "r": 0.15003663858146243,
+    "rho": 0.15894180416913165
+  }
+}

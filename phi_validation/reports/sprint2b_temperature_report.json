@@ -1,0 +1,50 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2b_temperature_control",
+  "timestamp": "2026-04-18 22:48:47 UTC",
+  "controller": {
+    "T0": 1.0,
+    "beta": 1.0,
+    "kappa": 10.0,
+    "tau": 0.5
+  },
+  "v1_monotonicity": {
+    "min_dT": 0.067139675004931,
+    "pass": true
+  },
+  "v2_boundedness": {
+    "T_min": 1.0067596605107132,
+    "T_max": 1.9932403394892868,
+    "pass": true
+  },
+  "v3_entropy": {
+    "all_increase": true,
+    "n_pass": 20,
+    "n_total": 20
+  },
+  "v4_stability": {
+    "jacobian": 0.0,
+    "pass": true,
+    "note": "ensemble estimator: no feedback loop"
+  },
+  "v5_aci": {
+    "current_tau": 0.7600000000000209,
+    "n_updates": 500,
+    "mean_error_rate": 0.124,
+    "target_alpha": 0.1,
+    "tau_range": [
+      0.7,
+      0.7695000000000114
+    ],
+    "tau_std": 0.010801806662557251,
+    "converged": true
+  },
+  "v5_aci_pass": true,
+  "et_ordering": {
+    "low": 0.6915311825999421,
+    "medium": 0.7095850418560635,
+    "high": 0.7471506985215713,
+    "correct": true
+  },
+  "decision": "SPRINT_2B_COMPLETE"
+}

@@ -1,0 +1,95 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2a_v4_geometric_sensitivity",
+  "timestamp": "2026-04-23 16:05:02 UTC",
+  "approach": "geometric_sensitivity_single_pass",
+  "signals": [
+    "Sens_jacobian_proxy",
+    "Consensus_cross_layer",
+    "Margin_representation"
+  ],
+  "target": "H_sem (semantic dispersion)",
+  "corpus_size": 279,
+  "features_shape": [
+    279,
+    13
+  ],
+  "confound_variance_removed": 0.656385463064151,
+  "h_sem_human_r": -0.23153147619875822,
+  "h_sem_human_rho": -0.22213858725119626,
+  "lodo_h_sem": {
+    "r": 0.0767504277605317,
+    "rho": 0.10352142249334173,
+    "per_domain": {
+      "epistemic": {
+        "n_train": 220,
+        "n_test": 59,
+        "r": 0.09708082230033531,
+        "rho": 0.04886031560490942
+      },
+      "ml_config": {
+        "n_train": 223,
+        "n_test": 56,
+        "r": 0.27987772742547584,
+        "rho": 0.2969241285030759
+      },
+      "software": {
+        "n_train": 223,
+        "n_test": 56,
+        "r": 0.14737548828091432,
+        "rho": 0.20362269309637732
+      },
+      "technical": {
+        "n_train": 226,
+        "n_test": 53,
+        "r": 0.08710009995982111,
+        "rho": 0.11320754716981131
+      },
+      "trading": {
+        "n_train": 224,
+        "n_test": 55,
+        "r": 0.19073280857474595,
+        "rho": 0.17424242424242428
+      }
+    }
+  },
+  "lodo_ensemble": {
+    "r": 0.28276906816848113,
+    "rho": 0.3178402899799976
+  },
+  "ood": {
+    "r": 0.14925937252599547,
+    "rho": 0.1144934286466455,
+    "pass": false
+  },
+  "c41": {
+    "r": 0.0767504277605317,
+    "pass": false
+  },
+  "c42": {
+    "r": 0.06729013313979748,
+    "pass": false
+  },
+  "c43": {
+    "pp": 0.22544719854137638,
+    "pass": false
+  },
+  "human_oof": {
+    "r": 0.04544512379042371,
+    "rho": 0.03401370750943117
+  },
+  "signal_correlations": {
+    "Sens": {
+      "r_hsem": 0.5446105226452543,
+      "r_human": -0.24136995992542193
+    },
+    "Consensus": {
+      "r_hsem": 0.2568711739448907,
+      "r_human": -0.3246850494477634
+    },
+    "Margin": {
+      "r_hsem": 0.19109592042156937,
+      "r_human": 0.10822255745320038
+    }
+  }
+}

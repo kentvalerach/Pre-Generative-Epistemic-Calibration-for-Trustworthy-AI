@@ -1,0 +1,361 @@
+{
+  "project": "ECHO",
+  "module": "gap1_resolution",
+  "timestamp": "2026-04-15 16:33:38 UTC",
+  "encoder": "BAAI/bge-large-en-v1.5",
+  "step1_raw_stability": [
+    {
+      "concept": "trailing_stop_recommendation",
+      "domain": "trading",
+      "epistemic_level": "low",
+      "diameter": "0.17991728",
+      "mean_intra": "0.118623994",
+      "std_intra": "0.04265848",
+      "min_inter": "0.39218807",
+      "stability_ratio": "2.1798244"
+    },
+    {
+      "concept": "bug_location_diagnosis",
+      "domain": "software",
+      "epistemic_level": "low",
+      "diameter": "0.28926742",
+      "mean_intra": "0.20432146",
+      "std_intra": "0.056984734",
+      "min_inter": "0.4309321",
+      "stability_ratio": "1.4897361"
+    },
+    {
+      "concept": "model_overfitting_explanation",
+      "domain": "ml_config",
+      "epistemic_level": "medium",
+      "diameter": "0.22354096",
+      "mean_intra": "0.15972218",
+      "std_intra": "0.05022152",
+      "min_inter": "0.3005305",
+      "stability_ratio": "1.3444091"
+    },
+    {
+      "concept": "attention_parallel_computation",
+      "domain": "technical",
+      "epistemic_level": "low",
+      "diameter": "0.26400334",
+      "mean_intra": "0.20170824",
+      "std_intra": "0.046527613",
+      "min_inter": "0.4492663",
+      "stability_ratio": "1.7017448"
+    },
+    {
+      "concept": "uncertain_recommendation",
+      "domain": "epistemic",
+      "epistemic_level": "high",
+      "diameter": "0.2670107",
+      "mean_intra": "0.18450895",
+      "std_intra": "0.060354054",
+      "min_inter": "0.29307383",
+      "stability_ratio": "1.0976108"
+    },
+    {
+      "concept": "database_index_performance",
+      "domain": "software",
+      "epistemic_level": "low",
+      "diameter": "0.18849492",
+      "mean_intra": "0.13655439",
+      "std_intra": "0.026475176",
+      "min_inter": "0.4068839",
+      "stability_ratio": "2.1585934"
+    },
+    {
+      "concept": "kl_divergence_elbo",
+      "domain": "technical",
+      "epistemic_level": "low",
+      "diameter": "0.22051722",
+      "mean_intra": "0.14988129",
+      "std_intra": "0.042295605",
+      "min_inter": "0.42826986",
+      "stability_ratio": "1.9421153"
+    },
+    {
+      "concept": "regime_classification_uncertain",
+      "domain": "trading",
+      "epistemic_level": "high",
+      "diameter": "0.3244139",
+      "mean_intra": "0.25210708",
+      "std_intra": "0.03955254",
+      "min_inter": "0.29307383",
+      "stability_ratio": "0.9033948"
+    }
+  ],
+  "step2_uep_mc": [
+    {
+      "concept": "trailing_stop_recommendation",
+      "epistemic_level": "low",
+      "uep_centroid_var": 0.6903634768604666,
+      "uep_sensitivity": 0.7031793155988605,
+      "uep_combined": 0.6967713962296636
+    },
+    {
+      "concept": "bug_location_diagnosis",
+      "epistemic_level": "low",
+      "uep_centroid_var": 0.7134683670193446,
+      "uep_sensitivity": 0.6978194189559875,
+      "uep_combined": 0.705643892987666
+    },
+    {
+      "concept": "model_overfitting_explanation",
+      "epistemic_level": "medium",
+      "uep_centroid_var": 0.696005571270642,
+      "uep_sensitivity": 0.7001654604323191,
+      "uep_combined": 0.6980855158514805
+    },
+    {
+      "concept": "attention_parallel_computation",
+      "epistemic_level": "low",
+      "uep_centroid_var": 0.7017310058781272,
+      "uep_sensitivity": 0.7020023681350551,
+      "uep_combined": 0.7018666870065912
+    },
+    {
+      "concept": "uncertain_recommendation",
+      "epistemic_level": "high",
+      "uep_centroid_var": 0.7131813633936009,
+      "uep_sensitivity": 0.7008210036069424,
+      "uep_combined": 0.7070011835002716
+    },
+    {
+      "concept": "database_index_performance",
+      "epistemic_level": "low",
+      "uep_centroid_var": 0.7016420321852883,
+      "uep_sensitivity": 0.6990292164636721,
+      "uep_combined": 0.7003356243244803
+    },
+    {
+      "concept": "kl_divergence_elbo",
+      "epistemic_level": "low",
+      "uep_centroid_var": 0.7019554284182358,
+      "uep_sensitivity": 0.7028567230273512,
+      "uep_combined": 0.7024060757227935
+    },
+    {
+      "concept": "regime_classification_uncertain",
+      "epistemic_level": "high",
+      "uep_centroid_var": 0.7182025881326743,
+      "uep_sensitivity": 0.7037177393342982,
+      "uep_combined": 0.7109601637334863
+    }
+  ],
+  "step2_uep_lexical": [
+    {
+      "concept": "trailing_stop_recommendation",
+      "length_cv": 0.07017543859649122,
+      "mean_jaccard_dist": 0.7508767629858961,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.27368406719412913
+    },
+    {
+      "concept": "bug_location_diagnosis",
+      "length_cv": 0.05555555555555555,
+      "mean_jaccard_dist": 0.8351821005081875,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.2969125520212477
+    },
+    {
+      "concept": "model_overfitting_explanation",
+      "length_cv": 0.06133864568481871,
+      "mean_jaccard_dist": 0.8033819396977291,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.2882401951275159
+    },
+    {
+      "concept": "attention_parallel_computation",
+      "length_cv": 0.11898824531798716,
+      "mean_jaccard_dist": 0.8539968124410849,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.32432835258635734
+    },
+    {
+      "concept": "uncertain_recommendation",
+      "length_cv": 0.10393492741038725,
+      "mean_jaccard_dist": 0.8774768507354714,
+      "hedge_density": 2.2,
+      "uep_lexical": 0.4738039260486196
+    },
+    {
+      "concept": "database_index_performance",
+      "length_cv": 0.08426500884694862,
+      "mean_jaccard_dist": 0.7963980669724376,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.2935543586064621
+    },
+    {
+      "concept": "kl_divergence_elbo",
+      "length_cv": 0.06622103264406212,
+      "mean_jaccard_dist": 0.6825676056082235,
+      "hedge_density": 0.0,
+      "uep_lexical": 0.24959621275076185
+    },
+    {
+      "concept": "regime_classification_uncertain",
+      "length_cv": 0.08426500884694862,
+      "mean_jaccard_dist": 0.9108597344684302,
+      "hedge_density": 0.6,
+      "uep_lexical": 0.37170824777179295
+    }
+  ],
+  "step3_correlations": {
+    "diameter_vs_uep_mc": {
+      "spearman_rho": 0.8571428571428572,
+      "spearman_p": 0.0065300172547152905,
+      "pearson_r": 0.8944928805315888,
+      "pearson_p": 0.0027087582143890962
+    },
+    "diameter_vs_uep_lexical": {
+      "spearman_rho": 0.7619047619047621,
+      "spearman_p": 0.028004939153071794,
+      "pearson_r": 0.5375851028311096,
+      "pearson_p": 0.16939192978160655
+    },
+    "diameter_vs_hedge_density": {
+      "spearman_rho": 0.5923057020691221,
+      "spearman_p": 0.12183451362769837,
+      "pearson_r": 0.3561674764273747,
+      "pearson_p": 0.3865138066534923
+    },
+    "diameter_vs_epistemic_level": {
+      "spearman_rho": 0.5773502691896258,
+      "spearman_p": 0.13397459621556113,
+      "pearson_r": 0.5696175423465291,
+      "pearson_p": 0.1405048381326675
+    },
+    "inv_stability_ratio_vs_uep_mc": {
+      "spearman_rho": 0.7380952380952381,
+      "spearman_p": 0.03655276105286081,
+      "pearson_r": 0.8024428257359563,
+      "pearson_p": 0.0165328213181884
+    },
+    "inv_stability_ratio_vs_uep_lexical": {
+      "spearman_rho": 0.7142857142857144,
+      "spearman_p": 0.046528232284167255,
+      "pearson_r": 0.7207046793973266,
+      "pearson_p": 0.04369477990192101
+    },
+    "inv_stability_ratio_vs_hedge_density": {
+      "spearman_rho": 0.7325886315065459,
+      "spearman_p": 0.03873063222381199,
+      "pearson_r": 0.6056671896578948,
+      "pearson_p": 0.11153382751437833
+    },
+    "inv_stability_ratio_vs_epistemic_level": {
+      "spearman_rho": 0.8660254037844388,
+      "spearman_p": 0.005423950341308719,
+      "pearson_r": 0.9265399145210427,
+      "pearson_p": 0.0009372475108239663
+    }
+  },
+  "step4_projection_dim": 128,
+  "step5_stability_after": [
+    {
+      "concept": "trailing_stop_recommendation",
+      "domain": "trading",
+      "epistemic_level": "low",
+      "diameter": 0.18225875127773017,
+      "mean_intra": 0.12363600894608495,
+      "min_inter": 0.44327634939962024,
+      "stability_ratio": 2.4321265579403937
+    },
+    {
+      "concept": "bug_location_diagnosis",
+      "domain": "software",
+      "epistemic_level": "low",
+      "diameter": 0.3568833447287323,
+      "mean_intra": 0.22886725830249205,
+      "min_inter": 0.45265209367135384,
+      "stability_ratio": 1.2683474876515057
+    },
+    {
+      "concept": "model_overfitting_explanation",
+      "domain": "ml_config",
+      "epistemic_level": "medium",
+      "diameter": 0.2319354996714127,
+      "mean_intra": 0.1731002478901518,
+      "min_inter": 0.31265276342256076,
+      "stability_ratio": 1.3480159952465307
+    },
+    {
+      "concept": "attention_parallel_computation",
+      "domain": "technical",
+      "epistemic_level": "low",
+      "diameter": 0.2586042726815294,
+      "mean_intra": 0.20023750809939306,
+      "min_inter": 0.4472984624347488,
+      "stability_ratio": 1.729663852018392
+    },
+    {
+      "concept": "uncertain_recommendation",
+      "domain": "epistemic",
+      "epistemic_level": "high",
+      "diameter": 0.28472830789907466,
+      "mean_intra": 0.17378452629086877,
+      "min_inter": 0.29252383534548954,
+      "stability_ratio": 1.0273788282729446
+    },
+    {
+      "concept": "database_index_performance",
+      "domain": "software",
+      "epistemic_level": "low",
+      "diameter": 0.19954531023422517,
+      "mean_intra": 0.13162004266563243,
+      "min_inter": 0.45265209367135384,
+      "stability_ratio": 2.268417599692187
+    },
+    {
+      "concept": "kl_divergence_elbo",
+      "domain": "technical",
+      "epistemic_level": "low",
+      "diameter": 0.29764462070534736,
+      "mean_intra": 0.18682291827826975,
+      "min_inter": 0.42421635228984844,
+      "stability_ratio": 1.4252444787497116
+    },
+    {
+      "concept": "regime_classification_uncertain",
+      "domain": "trading",
+      "epistemic_level": "high",
+      "diameter": 0.30079860142832227,
+      "mean_intra": 0.24208434219468974,
+      "min_inter": 0.29252383534548954,
+      "stability_ratio": 0.9724906763411114
+    }
+  ],
+  "step5_axioms_before": {
+    "mean_para": 0.1456160339953136,
+    "mean_contra": 0.2401356737043962,
+    "mean_hedge": 0.1939490229317395,
+    "eps_lex": 0.11109541181014755,
+    "gamma_prop": 2.16152647343139,
+    "gamma_mod": 1.7457878752291012,
+    "a1_pass": false,
+    "a2_pass": true,
+    "a3_pass": false,
+    "axioms_passed": 1
+  },
+  "step5_axioms_after": {
+    "mean_para": 0.13139355719227772,
+    "mean_contra": 0.24974112809669524,
+    "mean_hedge": 0.20246924428844001,
+    "eps_lex": 0.14833099691929505,
+    "gamma_prop": 1.6836745743209434,
+    "gamma_mod": 1.3649826974371437,
+    "a1_pass": true,
+    "a2_pass": true,
+    "a3_pass": false,
+    "axioms_passed": 2
+  },
+  "composite_score": {
+    "stability_before": 1.6021785736083984,
+    "stability_after": 1.558960684489097,
+    "gamma_mod_before": 1.7457878752291012,
+    "gamma_mod_after": 1.3649826974371437
+  },
+  "correlation_confirmed": true,
+  "decision": "GO"
+}

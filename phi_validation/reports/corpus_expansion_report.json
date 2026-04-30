@@ -1,0 +1,42 @@
+{
+  "project": "ECHO",
+  "module": "corpus_expansion_probe",
+  "timestamp": "2026-04-18 21:53:57 UTC",
+  "total_samples": 279,
+  "n_seeds": 50,
+  "n_augmented": 233,
+  "n_manual": 19,
+  "domain_distribution": {
+    "trading": 55,
+    "software": 56,
+    "ml_config": 56,
+    "technical": 53,
+    "epistemic": 59
+  },
+  "augmentation_distribution": {
+    "original": 50,
+    "hedge_inject": 37,
+    "hedge_suffix": 29,
+    "negate_uncertain": 26,
+    "length_long": 31,
+    "paraphrase_synonym": 29,
+    "length_caveat": 17,
+    "paraphrase_reorder": 19,
+    "hedge_remove": 21,
+    "negate_certain": 1,
+    "manual": 19
+  },
+  "ep_score_stats": {
+    "mean": 0.47835125448028665,
+    "std": 0.2423809730950389,
+    "min": 0.01,
+    "max": 0.92
+  },
+  "length_stats": {
+    "mean": 13.845878136200717,
+    "std": 4.589364657169376,
+    "min": 5,
+    "max": 29
+  },
+  "output_file": "C:\\ECHO\\data\\probe_corpus_expanded.json"
+}

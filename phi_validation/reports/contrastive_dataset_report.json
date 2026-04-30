@@ -1,0 +1,36 @@
+{
+  "project": "ECHO",
+  "module": "contrastive_dataset_preparation",
+  "timestamp": "2026-04-15 16:52:16 UTC",
+  "total_pairs": 1406,
+  "train_pairs": 1124,
+  "val_pairs": 282,
+  "sources": {
+    "commitmentbank": 462,
+    "mnli_entailment_transform": 770,
+    "mnli_neutral": 30,
+    "calibratedmath_style": 64,
+    "echo_synthetic": 80
+  },
+  "domains": {
+    "general": 462,
+    "fiction": 141,
+    "telephone": 166,
+    "slate": 145,
+    "government": 162,
+    "travel": 186,
+    "quantitative": 64,
+    "trading": 20,
+    "software": 15,
+    "ml_config": 15,
+    "technical": 15,
+    "epistemic": 15
+  },
+  "mean_certain_length": 90.18207681365575,
+  "mean_hedge_length": 119.17567567567568,
+  "output_files": {
+    "full": "C:\\ECHO\\data\\contrastive_pairs\\phi_modal_training.json",
+    "train": "C:\\ECHO\\data\\contrastive_pairs\\phi_modal_train.json",
+    "val": "C:\\ECHO\\data\\contrastive_pairs\\phi_modal_val.json"
+  }
+}

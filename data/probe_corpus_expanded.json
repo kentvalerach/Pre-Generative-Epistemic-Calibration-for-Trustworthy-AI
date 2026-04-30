@@ -1,0 +1,1676 @@
+[
+  {
+    "text": "The trailing stop follows price movement in one direction only.",
+    "ep": 0.06,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "Bitcoin's block reward halves approximately every four years.",
+    "ep": 0.08,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The trailing stop should be set at 1.5% for this regime.",
+    "ep": 0.25,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The funding rate indicates a short squeeze is imminent.",
+    "ep": 0.35,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The toxicity score looks elevated, suggesting caution.",
+    "ep": 0.5,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The current market seems to be in a high-volatility regime.",
+    "ep": 0.48,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The regime classification is ambiguous right now.",
+    "ep": 0.7,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The backtest results are encouraging, but overfitting is a real concern.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "The market could go either way from here — it's genuinely unclear.",
+    "ep": 0.9,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "I have a hypothesis about SHORT outperforming LONG, but the RSI paradox suggests dynamics I don't fully grasp.",
+    "ep": 0.85,
+    "domain": "trading",
+    "aug": "original"
+  },
+  {
+    "text": "WebSocket provides full-duplex communication over TCP.",
+    "ep": 0.05,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "NSSM is a Windows service manager for running executables as services.",
+    "ep": 0.05,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The bug is in the connection pooling logic.",
+    "ep": 0.28,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "This index will reduce query time from 12 seconds to under 500ms.",
+    "ep": 0.25,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The heartbeat interval might be causing the WebSocket disconnections.",
+    "ep": 0.52,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The race condition is probably caused by unsynchronized shared state.",
+    "ep": 0.48,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The memory leak could be from unclosed file handles, but there might be other factors.",
+    "ep": 0.65,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "ALTER TABLE should be safe, though on very large tables there could be locking issues.",
+    "ep": 0.6,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The cron job failure could be many things — stderr, permissions, or something else entirely.",
+    "ep": 0.82,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "I'm not sure what's causing the silent failure in the pipeline.",
+    "ep": 0.88,
+    "domain": "software",
+    "aug": "original"
+  },
+  {
+    "text": "The learning rate controls the step size during gradient descent.",
+    "ep": 0.05,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "Dollar bars sample by notional volume rather than time.",
+    "ep": 0.08,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "A learning rate of 3e-4 will accelerate convergence without overfitting.",
+    "ep": 0.3,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "Removing cyclic features eliminated the spurious correlation.",
+    "ep": 0.3,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "The model is likely overfitting due to insufficient regime diversity.",
+    "ep": 0.45,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "Increasing batch size should improve training stability.",
+    "ep": 0.42,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "Purged k-fold should eliminate most bias, though subtle leakage might remain.",
+    "ep": 0.62,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "Fractional differentiation should balance memory and stationarity, though the optimal d requires search.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "The ensemble configuration might be suboptimal — I'm not sure which base learners work best here.",
+    "ep": 0.8,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "I can't tell if the feature importance is stable or if it's an artifact of the cross-validation scheme.",
+    "ep": 0.85,
+    "domain": "ml_config",
+    "aug": "original"
+  },
+  {
+    "text": "The softmax function converts logits to probability distributions.",
+    "ep": 0.05,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "The KL divergence is always non-negative.",
+    "ep": 0.03,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "Gradient clipping prevents exploding gradients in deep recurrent networks.",
+    "ep": 0.25,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "The ELBO gap equals the KL divergence to the true posterior.",
+    "ep": 0.2,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "Layer normalization appears to stabilize training in most architectures.",
+    "ep": 0.4,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "Sparse attention can likely reduce complexity to near-linear.",
+    "ep": 0.45,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "The Fisher information matrix provides a reasonable approximation, though accuracy degrades far from the optimum.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "MoE routing seems to develop some specialization, though the degree is debated.",
+    "ep": 0.65,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "The information bottleneck theory offers one explanation for generalization, but its applicability is disputed.",
+    "ep": 0.78,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "The Lottery Ticket Hypothesis might apply here, though it's been shown to break down in some settings.",
+    "ep": 0.75,
+    "domain": "technical",
+    "aug": "original"
+  },
+  {
+    "text": "I am certain this configuration will improve performance.",
+    "ep": 0.1,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "The data clearly supports our hypothesis.",
+    "ep": 0.12,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "Based on my analysis, the optimal position size is 2% of capital.",
+    "ep": 0.3,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "The correlation between these features is causal, not merely statistical.",
+    "ep": 0.35,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation, though the evidence is limited.",
+    "ep": 0.55,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "The experiment provides useful evidence, though additional experiments would help.",
+    "ep": 0.5,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "This approach has been tested in several regimes, though I'm not confident it generalizes.",
+    "ep": 0.72,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "The data leans toward rejecting the null, though the p-value is close and the sample is small.",
+    "ep": 0.78,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "I think this might work, but I'm not entirely sure about the outcome.",
+    "ep": 0.85,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "I'm not confident in this prediction because the evidence is mixed.",
+    "ep": 0.88,
+    "domain": "epistemic",
+    "aug": "original"
+  },
+  {
+    "text": "in my assessment, the trailing stop follows price movement in one direction only.",
+    "ep": 0.21,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The trailing stop follows price movement in one direction only, though I'm not entirely certain.",
+    "ep": 0.24,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the trailing stop follows price movement in one direction only.",
+    "ep": 0.41,
+    "domain": "trading",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The trailing stop follows price movement in one direction only. This applies specifically in the context of trading systems.",
+    "ep": 0.04,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "in my assessment, bitcoin's block reward halves approximately every four years.",
+    "ep": 0.23,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Bitcoin's block reward halves approximately every four years, although more evidence would strengthen this claim.",
+    "ep": 0.23,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that bitcoin's block reward halves approximately every four years.",
+    "ep": 0.43,
+    "domain": "trading",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Bitcoin's block reward halves approximately every four years. This applies specifically in the context of trading systems.",
+    "ep": 0.06,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The trailing stop ought to be set at 1.5% for this regime.",
+    "ep": 0.25,
+    "domain": "trading",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "possibly the trailing stop should be set at 1.5% for this regime.",
+    "ep": 0.4,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The trailing stop should be set at 1.5% for this regime, but I could be wrong about this.",
+    "ep": 0.45,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the trailing stop should be set at 1.5% for this regime.",
+    "ep": 0.6,
+    "domain": "trading",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The trailing stop should be set at 1.5% for this regime. This has been validated in multiple empirical settings.",
+    "ep": 0.23,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The funding rate indicates a short squeeze represents imminent.",
+    "ep": 0.35,
+    "domain": "trading",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "probably the funding rate indicates a short squeeze is imminent.",
+    "ep": 0.5,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The funding rate indicates a short squeeze is imminent, though this depends on factors I haven't fully analyzed.",
+    "ep": 0.5,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the funding rate indicates a short squeeze is imminent.",
+    "ep": 0.7,
+    "domain": "trading",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The funding rate indicates a short squeeze is imminent. This applies specifically in the context of trading systems.",
+    "ep": 0.33,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The funding rate indicates a short squeeze is imminent. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.45,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Suggesting caution, the toxicity score looks elevated.",
+    "ep": 0.5,
+    "domain": "trading",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "I believe the toxicity score looks elevated, suggesting caution.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The toxicity score looks elevated, suggesting caution, though I'm not entirely certain.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "The toxicity score looks elevated, suggesting caution. This applies specifically in the context of trading systems.",
+    "ep": 0.48,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The toxicity score looks elevated, suggesting caution. However, there are several factors that could change this assessment, including data quality and regime shifts.",
+    "ep": 0.6,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "possibly the current market seems to be in a high-volatility regime.",
+    "ep": 0.63,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The current market seems to be in a high-volatility regime, but I could be wrong about this.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "The current market be in a high-volatility regime.",
+    "ep": 0.33,
+    "domain": "trading",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "There is no clear evidence that the current market seems to be in a high-volatility regime.",
+    "ep": 0.83,
+    "domain": "trading",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The current market seems to be in a high-volatility regime. This has been validated in multiple empirical settings.",
+    "ep": 0.46,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The current market seems to be in a high-volatility regime. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.58,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "The regime classification represents ambiguous right now.",
+    "ep": 0.7,
+    "domain": "trading",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "The regime classification is ambiguous right now. However, there are several factors that could change this assessment, including data quality and regime shifts.",
+    "ep": 0.8,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "But overfitting is a real concern, the backtest results are encouraging.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The backtest results are encouraging, but overfitting represents a real concern.",
+    "ep": 0.68,
+    "domain": "trading",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "likely the backtest results are encouraging, but overfitting is a real concern.",
+    "ep": 0.8,
+    "domain": "trading",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The backtest results are encouraging, but overfitting is a real concern. This applies specifically in the context of trading systems.",
+    "ep": 0.66,
+    "domain": "trading",
+    "aug": "length_long"
+  },
+  {
+    "text": "The backtest results are encouraging, but overfitting is a real concern. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.78,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "The market will go either way from here — it's genuinely unclear.",
+    "ep": 0.72,
+    "domain": "trading",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "The market could go either way from here — it's genuinely unclear. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.92,
+    "domain": "trading",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "But the RSI paradox suggests dynamics I don't fully grasp, i have a hypothesis about short outperforming long.",
+    "ep": 0.85,
+    "domain": "trading",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "I have a hypothesis about SHORT outperforming LONG, but the RSI paradox implies dynamics I don't fully grasp.",
+    "ep": 0.85,
+    "domain": "trading",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "WebSocket offers full-duplex communication over TCP.",
+    "ep": 0.05,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "likely webSocket provides full-duplex communication over TCP.",
+    "ep": 0.17,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "WebSocket provides full-duplex communication over TCP, but the evidence is still preliminary.",
+    "ep": 0.22,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that webSocket provides full-duplex communication over TCP.",
+    "ep": 0.4,
+    "domain": "software",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "WebSocket provides full-duplex communication over TCP. This applies specifically in the context of software systems.",
+    "ep": 0.03,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "NSSM represents a Windows service manager for running executables as services.",
+    "ep": 0.05,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "I believe nSSM is a Windows service manager for running executables as services.",
+    "ep": 0.23,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "NSSM is a Windows service manager for running executables as services, though this depends on factors I haven't fully analyzed.",
+    "ep": 0.2,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that nSSM is a Windows service manager for running executables as services.",
+    "ep": 0.4,
+    "domain": "software",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "NSSM is a Windows service manager for running executables as services. The reasoning follows from first principles in software.",
+    "ep": 0.03,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "The bug represents in the connection pooling logic.",
+    "ep": 0.28,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "based on available evidence, the bug is in the connection pooling logic.",
+    "ep": 0.38,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The bug is in the connection pooling logic, though I'm not entirely certain.",
+    "ep": 0.46,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the bug is in the connection pooling logic.",
+    "ep": 0.63,
+    "domain": "software",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The bug is in the connection pooling logic. This applies specifically in the context of software systems.",
+    "ep": 0.26,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "This index is going to reduce query time from 12 seconds to under 500ms.",
+    "ep": 0.25,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, this index will reduce query time from 12 seconds to under 500ms.",
+    "ep": 0.4,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "This index will reduce query time from 12 seconds to under 500ms, but the evidence is still preliminary.",
+    "ep": 0.42,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that this index will reduce query time from 12 seconds to under 500ms.",
+    "ep": 0.6,
+    "domain": "software",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "This index will reduce query time from 12 seconds to under 500ms. The reasoning follows from first principles in software.",
+    "ep": 0.23,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "it seems that the heartbeat interval might be causing the WebSocket disconnections.",
+    "ep": 0.72,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The heartbeat interval might be causing the WebSocket disconnections, but I could be wrong about this.",
+    "ep": 0.72,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "The heartbeat interval will be causing the WebSocket disconnections.",
+    "ep": 0.32,
+    "domain": "software",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "The heartbeat interval might be causing the WebSocket disconnections. This applies specifically in the context of software systems.",
+    "ep": 0.5,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "The heartbeat interval might be causing the WebSocket disconnections. That said, the confidence interval is wide and more data would help narrow it down considerably.",
+    "ep": 0.62,
+    "domain": "software",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "The race condition represents probably caused by unsynchronized shared state.",
+    "ep": 0.48,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "probably the race condition is probably caused by unsynchronized shared state.",
+    "ep": 0.63,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The race condition is probably caused by unsynchronized shared state, though I'm not entirely certain.",
+    "ep": 0.66,
+    "domain": "software",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "The race condition is caused by unsynchronized shared state.",
+    "ep": 0.33,
+    "domain": "software",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "There is no clear evidence that the race condition is probably caused by unsynchronized shared state.",
+    "ep": 0.83,
+    "domain": "software",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The race condition is probably caused by unsynchronized shared state. The reasoning follows from first principles in software.",
+    "ep": 0.46,
+    "domain": "software",
+    "aug": "length_long"
+  },
+  {
+    "text": "The race condition is probably caused by unsynchronized shared state. However, there are several factors that could change this assessment, including data quality and regime shifts.",
+    "ep": 0.58,
+    "domain": "software",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "But there might be other factors, the memory leak could be from unclosed file handles.",
+    "ep": 0.65,
+    "domain": "software",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "it seems that the memory leak could be from unclosed file handles, but there might be other factors.",
+    "ep": 0.85,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The memory leak could be from unclosed file handles, but there will be other factors.",
+    "ep": 0.45,
+    "domain": "software",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Though on very large tables there could be locking issues, alter table should be safe.",
+    "ep": 0.6,
+    "domain": "software",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "ALTER TABLE ought to be safe, though on very large tables there could be locking issues.",
+    "ep": 0.6,
+    "domain": "software",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "it seems that aLTER TABLE should be safe, though on very large tables there could be locking issues.",
+    "ep": 0.8,
+    "domain": "software",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "ALTER TABLE should be safe, though on very large tables there will be locking issues.",
+    "ep": 0.42,
+    "domain": "software",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Permissions, or something else entirely, the cron job failure could be many things — stderr.",
+    "ep": 0.82,
+    "domain": "software",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The cron job failure will be many things — stderr, permissions, or something else entirely.",
+    "ep": 0.64,
+    "domain": "software",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "I'm not sure what's causing the silent failure in the pipeline. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.92,
+    "domain": "software",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "The learning rate governs the step size during gradient descent.",
+    "ep": 0.05,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "probably the learning rate controls the step size during gradient descent.",
+    "ep": 0.2,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The learning rate controls the step size during gradient descent, but the evidence is still preliminary.",
+    "ep": 0.22,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the learning rate controls the step size during gradient descent.",
+    "ep": 0.4,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The learning rate controls the step size during gradient descent. This applies specifically in the context of ml_config systems.",
+    "ep": 0.03,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "likely dollar bars sample by notional volume rather than time.",
+    "ep": 0.2,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Dollar bars sample by notional volume rather than time, although more evidence would strengthen this claim.",
+    "ep": 0.23,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that dollar bars sample by notional volume rather than time.",
+    "ep": 0.43,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Dollar bars sample by notional volume rather than time. This has been validated in multiple empirical settings.",
+    "ep": 0.06,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "A learning rate of 3e-4 is going to accelerate convergence without overfitting.",
+    "ep": 0.3,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "likely a learning rate of 3e-4 will accelerate convergence without overfitting.",
+    "ep": 0.42,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "A learning rate of 3e-4 will accelerate convergence without overfitting, although more evidence would strengthen this claim.",
+    "ep": 0.45,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that a learning rate of 3e-4 will accelerate convergence without overfitting.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "A learning rate of 3e-4 will accelerate convergence without overfitting. This has been validated in multiple empirical settings.",
+    "ep": 0.28,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "possibly removing cyclic features eliminated the spurious correlation.",
+    "ep": 0.45,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Removing cyclic features eliminated the spurious correlation, though I'm not entirely certain.",
+    "ep": 0.48,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that removing cyclic features eliminated the spurious correlation.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Removing cyclic features eliminated the spurious correlation. This applies specifically in the context of ml_config systems.",
+    "ep": 0.28,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "The model represents likely overfitting due to insufficient regime diversity.",
+    "ep": 0.45,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, the model is likely overfitting due to insufficient regime diversity.",
+    "ep": 0.6,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The model is likely overfitting due to insufficient regime diversity, but I could be wrong about this.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "The model is overfitting due to insufficient regime diversity.",
+    "ep": 0.33,
+    "domain": "ml_config",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "There is no clear evidence that the model is likely overfitting due to insufficient regime diversity.",
+    "ep": 0.8,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The model is likely overfitting due to insufficient regime diversity. The reasoning follows from first principles in ml_config.",
+    "ep": 0.43,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "The model is likely overfitting due to insufficient regime diversity. However, there are several factors that could change this assessment, including data quality and regime shifts.",
+    "ep": 0.55,
+    "domain": "ml_config",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Increasing batch size ought to improve training stability.",
+    "ep": 0.42,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "based on available evidence, increasing batch size should improve training stability.",
+    "ep": 0.52,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Increasing batch size should improve training stability, but I could be wrong about this.",
+    "ep": 0.62,
+    "domain": "ml_config",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that increasing batch size should improve training stability.",
+    "ep": 0.77,
+    "domain": "ml_config",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Increasing batch size should improve training stability. This applies specifically in the context of ml_config systems.",
+    "ep": 0.4,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "Increasing batch size should improve training stability. That said, the confidence interval is wide and more data would help narrow it down considerably.",
+    "ep": 0.52,
+    "domain": "ml_config",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Though subtle leakage might remain, purged k-fold should eliminate most bias.",
+    "ep": 0.62,
+    "domain": "ml_config",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "Purged k-fold ought to eliminate most bias, though subtle leakage might remain.",
+    "ep": 0.62,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "it seems that purged k-fold should eliminate most bias, though subtle leakage might remain.",
+    "ep": 0.82,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Purged k-fold should eliminate most bias, though subtle leakage will remain.",
+    "ep": 0.42,
+    "domain": "ml_config",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Purged k-fold should eliminate most bias, though subtle leakage might remain. The reasoning follows from first principles in ml_config.",
+    "ep": 0.6,
+    "domain": "ml_config",
+    "aug": "length_long"
+  },
+  {
+    "text": "Though the optimal d requires search, fractional differentiation should balance memory and stationarity.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "Fractional differentiation ought to balance memory and stationarity, though the optimal d requires search.",
+    "ep": 0.65,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "based on available evidence, fractional differentiation should balance memory and stationarity, though the optimal d requires search.",
+    "ep": 0.75,
+    "domain": "ml_config",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Fractional differentiation should balance memory and stationarity.",
+    "ep": 0.5,
+    "domain": "ml_config",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "The ensemble configuration will be suboptimal — I'm not sure which base learners work best here.",
+    "ep": 0.6,
+    "domain": "ml_config",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "I can't tell if the feature importance represents stable or if it's an artifact of the cross-validation scheme.",
+    "ep": 0.85,
+    "domain": "ml_config",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "possibly the softmax function converts logits to probability distributions.",
+    "ep": 0.2,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The softmax function converts logits to probability distributions, although more evidence would strengthen this claim.",
+    "ep": 0.2,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the softmax function converts logits to probability distributions.",
+    "ep": 0.4,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The softmax function converts logits to probability distributions. This has been validated in multiple empirical settings.",
+    "ep": 0.03,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "The KL divergence represents always non-negative.",
+    "ep": 0.03,
+    "domain": "technical",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, the KL divergence is always non-negative.",
+    "ep": 0.18,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The KL divergence is always non-negative, though I'm not entirely certain.",
+    "ep": 0.21,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the KL divergence is always non-negative.",
+    "ep": 0.38,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The KL divergence is always non-negative. This has been validated in multiple empirical settings.",
+    "ep": 0.01,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "Gradient clipping avoids exploding gradients in deep recurrent networks.",
+    "ep": 0.25,
+    "domain": "technical",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, gradient clipping prevents exploding gradients in deep recurrent networks.",
+    "ep": 0.4,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Gradient clipping prevents exploding gradients in deep recurrent networks, but I could be wrong about this.",
+    "ep": 0.45,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that gradient clipping prevents exploding gradients in deep recurrent networks.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Gradient clipping prevents exploding gradients in deep recurrent networks. This has been validated in multiple empirical settings.",
+    "ep": 0.23,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "in my assessment, the ELBO gap equals the KL divergence to the true posterior.",
+    "ep": 0.35,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The ELBO gap equals the KL divergence to the true posterior, but I could be wrong about this.",
+    "ep": 0.4,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the ELBO gap equals the KL divergence to the true posterior.",
+    "ep": 0.55,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The ELBO gap equals the KL divergence to the true posterior. This applies specifically in the context of technical systems.",
+    "ep": 0.18,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "I believe layer normalization appears to stabilize training in most architectures.",
+    "ep": 0.58,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Layer normalization appears to stabilize training in most architectures, but the evidence is still preliminary.",
+    "ep": 0.57,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that layer normalization appears to stabilize training in most architectures.",
+    "ep": 0.75,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Layer normalization appears to stabilize training in most architectures. The reasoning follows from first principles in technical.",
+    "ep": 0.38,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "Layer normalization appears to stabilize training in most architectures. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.5,
+    "domain": "technical",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "in my assessment, sparse attention can likely reduce complexity to near-linear.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Sparse attention can likely reduce complexity to near-linear, though this depends on factors I haven't fully analyzed.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "Sparse attention can reduce complexity to near-linear.",
+    "ep": 0.33,
+    "domain": "technical",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "There is no clear evidence that sparse attention can likely reduce complexity to near-linear.",
+    "ep": 0.8,
+    "domain": "technical",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Sparse attention can likely reduce complexity to near-linear. This applies specifically in the context of technical systems.",
+    "ep": 0.43,
+    "domain": "technical",
+    "aug": "length_long"
+  },
+  {
+    "text": "Sparse attention can likely reduce complexity to near-linear. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.55,
+    "domain": "technical",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Though accuracy degrades far from the optimum, the fisher information matrix provides a reasonable approximation.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The Fisher information matrix offers a reasonable approximation, though accuracy degrades far from the optimum.",
+    "ep": 0.6,
+    "domain": "technical",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "it seems that the Fisher information matrix provides a reasonable approximation, though accuracy degrades far from the optimum.",
+    "ep": 0.8,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The Fisher information matrix provides a reasonable approximation.",
+    "ep": 0.45,
+    "domain": "technical",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Though the degree is debated, moe routing seems to develop some specialization.",
+    "ep": 0.65,
+    "domain": "technical",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "MoE routing seems to develop some specialization, though the degree represents debated.",
+    "ep": 0.65,
+    "domain": "technical",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "based on available evidence, moE routing seems to develop some specialization, though the degree is debated.",
+    "ep": 0.75,
+    "domain": "technical",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "MoE routing develop some specialization, though the degree is debated.",
+    "ep": 0.5,
+    "domain": "technical",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "But its applicability is disputed, the information bottleneck theory offers one explanation for generalization.",
+    "ep": 0.78,
+    "domain": "technical",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The information bottleneck theory offers one explanation for generalization.",
+    "ep": 0.63,
+    "domain": "technical",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Though it's been shown to break down in some settings, the lottery ticket hypothesis might apply here.",
+    "ep": 0.75,
+    "domain": "technical",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The Lottery Ticket Hypothesis will apply here, though it's been shown to break down in some settings.",
+    "ep": 0.55,
+    "domain": "technical",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "I am certain this configuration is going to improve performance.",
+    "ep": 0.1,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "probably i am certain this configuration will improve performance.",
+    "ep": 0.25,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "I am certain this configuration will improve performance, but I could be wrong about this.",
+    "ep": 0.3,
+    "domain": "epistemic",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that i am certain this configuration will improve performance.",
+    "ep": 0.45,
+    "domain": "epistemic",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "I am certain this configuration will improve performance. This has been validated in multiple empirical settings.",
+    "ep": 0.08,
+    "domain": "epistemic",
+    "aug": "length_long"
+  },
+  {
+    "text": "in my assessment, the data clearly supports our hypothesis.",
+    "ep": 0.27,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The data clearly supports our hypothesis, although more evidence would strengthen this claim.",
+    "ep": 0.27,
+    "domain": "epistemic",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the data clearly supports our hypothesis.",
+    "ep": 0.47,
+    "domain": "epistemic",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The data clearly supports our hypothesis. This applies specifically in the context of epistemic systems.",
+    "ep": 0.1,
+    "domain": "epistemic",
+    "aug": "length_long"
+  },
+  {
+    "text": "The optimal position size is 2% of capital, based on my analysis.",
+    "ep": 0.3,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "Based on my analysis, the optimal position size represents 2% of capital.",
+    "ep": 0.3,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, based on my analysis, the optimal position size is 2% of capital.",
+    "ep": 0.45,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "Based on my analysis, the optimal position size is 2% of capital, but the evidence is still preliminary.",
+    "ep": 0.47,
+    "domain": "epistemic",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that based on my analysis, the optimal position size is 2% of capital.",
+    "ep": 0.65,
+    "domain": "epistemic",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "Based on my analysis, the optimal position size is 2% of capital. The reasoning follows from first principles in epistemic.",
+    "ep": 0.28,
+    "domain": "epistemic",
+    "aug": "length_long"
+  },
+  {
+    "text": "Not merely statistical, the correlation between these features is causal.",
+    "ep": 0.35,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The correlation between these features represents causal, not merely statistical.",
+    "ep": 0.35,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "in my assessment, the correlation between these features is causal, not merely statistical.",
+    "ep": 0.5,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The correlation between these features is causal, not merely statistical, but the evidence is still preliminary.",
+    "ep": 0.52,
+    "domain": "epistemic",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "There is no clear evidence that the correlation between these features is causal, not merely statistical.",
+    "ep": 0.7,
+    "domain": "epistemic",
+    "aug": "negate_uncertain"
+  },
+  {
+    "text": "The correlation between these features is causal, not merely statistical. This applies specifically in the context of epistemic systems.",
+    "ep": 0.33,
+    "domain": "epistemic",
+    "aug": "length_long"
+  },
+  {
+    "text": "The correlation between these features is causal, not merely statistical. That said, the confidence interval is wide and more data would help narrow it down considerably.",
+    "ep": 0.45,
+    "domain": "epistemic",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Though the evidence is limited, i'm fairly confident in this recommendation.",
+    "ep": 0.55,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation, though the evidence represents limited.",
+    "ep": 0.55,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "possibly i'm fairly confident in this recommendation, though the evidence is limited.",
+    "ep": 0.7,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation, though the evidence is limited, but I could be wrong about this.",
+    "ep": 0.75,
+    "domain": "epistemic",
+    "aug": "hedge_suffix"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation.",
+    "ep": 0.4,
+    "domain": "epistemic",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation, though the evidence is limited. This has been validated in multiple empirical settings.",
+    "ep": 0.53,
+    "domain": "epistemic",
+    "aug": "length_long"
+  },
+  {
+    "text": "I'm fairly confident in this recommendation, though the evidence is limited. The underlying assumptions have not been fully tested across all relevant conditions and edge cases.",
+    "ep": 0.65,
+    "domain": "epistemic",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "Though additional experiments would help, the experiment provides useful evidence.",
+    "ep": 0.5,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The experiment offers useful evidence, though additional experiments would help.",
+    "ep": 0.5,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "likely the experiment provides useful evidence, though additional experiments would help.",
+    "ep": 0.62,
+    "domain": "epistemic",
+    "aug": "hedge_inject"
+  },
+  {
+    "text": "The experiment provides useful evidence.",
+    "ep": 0.35,
+    "domain": "epistemic",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Though I'm not confident it generalizes, this approach has been tested in several regimes.",
+    "ep": 0.72,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "This approach has been tested in several regimes.",
+    "ep": 0.57,
+    "domain": "epistemic",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "Though the p-value is close and the sample is small, the data leans toward rejecting the null.",
+    "ep": 0.78,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "The data leans toward rejecting the null, though the p-value represents close and the sample is small.",
+    "ep": 0.78,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "The data leans toward rejecting the null.",
+    "ep": 0.63,
+    "domain": "epistemic",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "But I'm not entirely sure about the outcome, i think this might work.",
+    "ep": 0.85,
+    "domain": "epistemic",
+    "aug": "paraphrase_reorder"
+  },
+  {
+    "text": "This might work, but I'm not entirely sure about the outcome.",
+    "ep": 0.65,
+    "domain": "epistemic",
+    "aug": "hedge_remove"
+  },
+  {
+    "text": "The evidence clearly shows that this might work, but I'm not entirely sure about the outcome.",
+    "ep": 0.45,
+    "domain": "epistemic",
+    "aug": "negate_certain"
+  },
+  {
+    "text": "I think this might work, but I'm not entirely sure about the outcome. That said, the confidence interval is wide and more data would help narrow it down considerably.",
+    "ep": 0.92,
+    "domain": "epistemic",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "I'm not confident in this prediction because the evidence represents mixed.",
+    "ep": 0.88,
+    "domain": "epistemic",
+    "aug": "paraphrase_synonym"
+  },
+  {
+    "text": "I'm not confident in this prediction because the evidence is mixed. However, there are several factors that could change this assessment, including data quality and regime shifts.",
+    "ep": 0.92,
+    "domain": "epistemic",
+    "aug": "length_caveat"
+  },
+  {
+    "text": "A limit order sits in the order book until filled or cancelled.",
+    "ep": 0.04,
+    "domain": "trading",
+    "aug": "manual"
+  },
+  {
+    "text": "Leverage amplifies both gains and losses proportionally.",
+    "ep": 0.05,
+    "domain": "trading",
+    "aug": "manual"
+  },
+  {
+    "text": "The bid-ask spread represents the cost of immediate execution.",
+    "ep": 0.05,
+    "domain": "trading",
+    "aug": "manual"
+  },
+  {
+    "text": "The API should handle this edge case, but I haven't tested it with large payloads.",
+    "ep": 0.55,
+    "domain": "software",
+    "aug": "manual"
+  },
+  {
+    "text": "Attention heads in later layers tend to specialize, though the pattern varies by model size.",
+    "ep": 0.52,
+    "domain": "technical",
+    "aug": "manual"
+  },
+  {
+    "text": "The validation loss suggests convergence, but the gap with training loss is concerning.",
+    "ep": 0.55,
+    "domain": "ml_config",
+    "aug": "manual"
+  },
+  {
+    "text": "My analysis suggests this is the right call, but I'd like a second opinion.",
+    "ep": 0.58,
+    "domain": "epistemic",
+    "aug": "manual"
+  },
+  {
+    "text": "I really don't know if this architecture choice will scale to production loads.",
+    "ep": 0.9,
+    "domain": "software",
+    "aug": "manual"
+  },
+  {
+    "text": "The relationship between these variables is unclear and may be confounded by regime effects.",
+    "ep": 0.82,
+    "domain": "ml_config",
+    "aug": "manual"
+  },
+  {
+    "text": "Whether transformers truly learn compositionality remains an open question without consensus.",
+    "ep": 0.8,
+    "domain": "technical",
+    "aug": "manual"
+  },
+  {
+    "text": "The signals are contradictory and I can't form a reliable view on direction.",
+    "ep": 0.92,
+    "domain": "trading",
+    "aug": "manual"
+  },
+  {
+    "text": "My uncertainty about this recommendation is high because the precedents are ambiguous.",
+    "ep": 0.87,
+    "domain": "epistemic",
+    "aug": "manual"
+  },
+  {
+    "text": "This result has been independently replicated across three different laboratories.",
+    "ep": 0.08,
+    "domain": "epistemic",
+    "aug": "manual"
+  },
+  {
+    "text": "The mathematical proof is complete and verified by automated theorem checking.",
+    "ep": 0.03,
+    "domain": "epistemic",
+    "aug": "manual"
+  },
+  {
+    "text": "I have personally verified this configuration works on our production system.",
+    "ep": 0.12,
+    "domain": "epistemic",
+    "aug": "manual"
+  },
+  {
+    "text": "Cross-entropy loss measures the divergence between predicted and true distributions.",
+    "ep": 0.05,
+    "domain": "ml_config",
+    "aug": "manual"
+  },
+  {
+    "text": "Adam optimizer combines momentum with adaptive learning rates per parameter.",
+    "ep": 0.06,
+    "domain": "ml_config",
+    "aug": "manual"
+  },
+  {
+    "text": "The deployment might fail if the container orchestration doesn't handle the rolling update correctly, but I'm not experienced enough with this stack to be sure.",
+    "ep": 0.78,
+    "domain": "software",
+    "aug": "manual"
+  },
+  {
+    "text": "I suspect the timeout is too aggressive but changing it could mask other issues.",
+    "ep": 0.68,
+    "domain": "software",
+    "aug": "manual"
+  }
+]

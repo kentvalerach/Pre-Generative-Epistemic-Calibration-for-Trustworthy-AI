@@ -1,0 +1,95 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2a_v5_corrected",
+  "timestamp": "2026-04-23 17:21:27 UTC",
+  "corrections": [
+    "1. Target: U_ep_ens (r=0.614 with human)",
+    "2. Sens: JVP real via embedding perturbation",
+    "3. Consensus: in phi_modal epistemic subspace",
+    "4. Residualization: selective (no hedge_density)",
+    "5. hedge_density as legitimate epistemic feature"
+  ],
+  "corpus_size": 279,
+  "features": [
+    "Sens_JVP",
+    "Consensus_epistemic",
+    "norm_var",
+    "cls_norm",
+    "hedge_density",
+    "has_uncertainty",
+    "has_high_confidence",
+    "has_conditional",
+    "hedge_count"
+  ],
+  "confound_variance_removed": 0.11464205237736025,
+  "target_human_r": 0.6137261365143121,
+  "lodo": {
+    "r": 0.48269482255364815,
+    "rho": 0.5027274033307916,
+    "per_domain": {
+      "epistemic": {
+        "n_train": 220,
+        "n_test": 59,
+        "r": 0.26862204311806276,
+        "rho": 0.4091174751607248
+      },
+      "ml_config": {
+        "n_train": 223,
+        "n_test": 56,
+        "r": 0.6269732757193435,
+        "rho": 0.5875598086124402
+      },
+      "software": {
+        "n_train": 223,
+        "n_test": 56,
+        "r": 0.6589384969064316,
+        "rho": 0.6543403964456596
+      },
+      "technical": {
+        "n_train": 226,
+        "n_test": 53,
+        "r": 0.5612482717077225,
+        "rho": 0.5861957748750202
+      },
+      "trading": {
+        "n_train": 224,
+        "n_test": 55,
+        "r": 0.5717311491285196,
+        "rho": 0.5731601731601733
+      }
+    },
+    "alpha": 100.0
+  },
+  "ood": {
+    "r": 0.4134937842286448,
+    "rho": 0.5037767562422795,
+    "pass": true
+  },
+  "c41": {
+    "r": 0.48269482255364815,
+    "pass": true
+  },
+  "c42": {
+    "r": 0.7498407081173272,
+    "pass": true
+  },
+  "c43": {
+    "pp": 3.5890865136919485,
+    "pass": false
+  },
+  "human_oof": {
+    "r": 0.3743004977833122,
+    "rho": 0.38243032598457344
+  },
+  "signal_correlations_pre_residual": {
+    "Sens_JVP": -0.16484415562265956,
+    "Consensus_epistemic": 0.5104742227318072,
+    "norm_var": -0.01401972359490551,
+    "cls_norm": 0.33613828856526534,
+    "hedge_density": 0.37098461014593664,
+    "has_uncertainty": 0.2108012455402598,
+    "has_high_confidence": 0.15053350976162075,
+    "has_conditional": 0.3438029697836669,
+    "hedge_count": 0.4437763676294336
+  }
+}

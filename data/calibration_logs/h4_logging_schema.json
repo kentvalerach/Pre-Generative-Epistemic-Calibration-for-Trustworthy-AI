@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "description": "ECHO H4 Calibration Log \u2014 KAIRI Interaction Records",
+  "fields": {
+    "id": "Unique interaction ID (UUID)",
+    "timestamp": "ISO 8601 timestamp",
+    "query_type": "Category: config_parameter | regime_interpretation | feature_engineering | debugging | architecture | risk_assessment",
+    "query_text": "The question or request Kent made to Claude",
+    "suggestion_text": "Claude's response/suggestion (verbatim)",
+    "confidence_markers": "List of linguistic confidence indicators detected in the suggestion",
+    "confidence_score_implicit": "Estimated confidence from linguistic markers [0-1]",
+    "uep_estimated": "\u00db_ep computed by ECHO at time of suggestion",
+    "context_features": {
+      "conversation_length": "Number of turns in conversation",
+      "domain": "Primary domain of the query",
+      "prior_topic": "Topic of the previous turn",
+      "negation_present": "Whether user expressed disagreement",
+      "entity_density": "Named entities per token"
+    },
+    "outcome": {
+      "implemented": "Boolean: was the suggestion implemented?",
+      "implementation_date": "When it was implemented",
+      "result_metric": "Quantifiable outcome (P&L, win rate, etc.)",
+      "result_direction": "positive | negative | neutral",
+      "evaluation_horizon": "Time window for evaluation (e.g., 7 days)",
+      "notes": "Free-text notes on the outcome"
+    },
+    "regime_at_time": {
+      "regime_label": "R1 (high vol) | R2 (trend) | R3 (lateral) | R4 (transition)",
+      "atr_14": "ATR value at time of suggestion",
+      "adx_14": "ADX value at time of suggestion"
+    },
+    "counterfactual": {
+      "answer_changed_when_questioned": "Boolean: did Claude change answer when Kent pushed back?",
+      "consistency_across_sessions": "Same question in new conversation: same answer? [0-1]"
+    }
+  },
+  "instructions": [
+    "Log EVERY interaction where Claude makes a concrete suggestion for KAIRI.",
+    "Confidence markers: look for words like 'definitely', 'probably', 'might', 'I think', etc.",
+    "Outcome: fill in AFTER the suggestion is implemented and results are observable.",
+    "Regime: record market regime at time of suggestion using ATR/ADX.",
+    "Minimum 200 entries needed for H4 validation."
+  ]
+}

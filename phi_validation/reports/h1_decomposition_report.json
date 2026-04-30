@@ -1,0 +1,90 @@
+{
+  "project": "ECHO",
+  "module": "h1_uncertainty_decomposition",
+  "timestamp": "2026-04-17 20:25:31 UTC",
+  "ensemble": {
+    "models": [
+      "BAAI/bge-large-en-v1.5",
+      "intfloat/e5-large-v2",
+      "thenlper/gte-large"
+    ],
+    "alpha": 1.1929,
+    "K": 3
+  },
+  "test1": {
+    "name": "Ground Truth Epist\u00e9mica",
+    "rho_simple": 0.7010681840159743,
+    "p_simple": 0.05270433682657761,
+    "rho_decomposed": 0.618589574131742,
+    "p_decomposed": 0.1020600535461068,
+    "passed": true,
+    "per_concept": [
+      {
+        "concept": "trailing_stop",
+        "level": "low",
+        "uep_simple": 0.12715815007686615,
+        "uep_decomposed": -0.3800470409253388
+      },
+      {
+        "concept": "bug_diagnosis",
+        "level": "low",
+        "uep_simple": 0.12551690638065338,
+        "uep_decomposed": -0.3829774081942933
+      },
+      {
+        "concept": "overfitting",
+        "level": "medium",
+        "uep_simple": 0.12653671205043793,
+        "uep_decomposed": -0.38243725538197126
+      },
+      {
+        "concept": "attention",
+        "level": "low",
+        "uep_simple": 0.13296103477478027,
+        "uep_decomposed": -0.37506000324037714
+      },
+      {
+        "concept": "uncertain_rec",
+        "level": "high",
+        "uep_simple": 0.17797861993312836,
+        "uep_decomposed": -0.32638015344816346
+      },
+      {
+        "concept": "db_index",
+        "level": "low",
+        "uep_simple": 0.11059961467981339,
+        "uep_decomposed": -0.3957883239687365
+      },
+      {
+        "concept": "kl_elbo",
+        "level": "low",
+        "uep_simple": 0.12546692788600922,
+        "uep_decomposed": -0.3809892076292198
+      },
+      {
+        "concept": "regime_uncertain",
+        "level": "high",
+        "uep_simple": 0.15482573211193085,
+        "uep_decomposed": -0.3516056859903522
+      }
+    ]
+  },
+  "test2": {
+    "name": "Output Variability Correlation",
+    "pearson_r": 0.6377373241389286,
+    "pearson_p": 0.17308073486442188,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208,
+    "passed": true
+  },
+  "test3": {
+    "name": "Decomposition Consistency",
+    "mean_relative_error": 2.678927733802847e-17,
+    "max_relative_error": 2.0258375953694555e-16,
+    "pass_rate": 1.0,
+    "passed": true
+  },
+  "h1_validated": "True",
+  "h1_fully_validated": "True",
+  "h4_logging_initialized": true
+}

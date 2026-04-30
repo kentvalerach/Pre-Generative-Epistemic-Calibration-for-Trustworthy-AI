@@ -1,0 +1,44 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2c_lmeta_functional",
+  "timestamp": "2026-04-30 17:34:54 UTC",
+  "corpus_size": 279,
+  "baseline": {
+    "L_gen": 0.3734242730704901,
+    "ECE": 0.08549856595118091,
+    "perplexity": 1.4527005508258681
+  },
+  "best_config": {
+    "tau": 0.8,
+    "lambda1": 0.5,
+    "lambda2": 0.5,
+    "L_gen": 0.38407625177916166,
+    "L_cal": 0.0910957984731332,
+    "L_abs": 0.09176258205162477,
+    "L_meta": 0.6851931081631149,
+    "abstention_rate": 0.12178551623830586,
+    "perplexity_ratio": 1.010708913008621,
+    "feasible": "True",
+    "balanced": "True",
+    "max_term_share": 0.5605372371721662,
+    "term_shares": {
+      "L_gen": 0.5605372371721662,
+      "L_cal": 0.17801344676879116,
+      "L_abs": 0.26144931605904265
+    }
+  },
+  "n_feasible": 25,
+  "n_balanced_feasible": 25,
+  "convergence": {
+    "tau_initial": 0.35049946548338107,
+    "tau_final": 0.6016462306014189,
+    "L_meta_initial": 3.089439505697939,
+    "L_meta_final": 0.6328215229961746,
+    "decreasing_ratio": 0.03333333333333333
+  },
+  "v1_equilibrium": "True",
+  "v2_pareto": true,
+  "v3_convergence": "True",
+  "v4_constraints": true,
+  "all_pass": "True"
+}

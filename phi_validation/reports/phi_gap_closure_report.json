@@ -1,0 +1,157 @@
+{
+  "project": "ECHO",
+  "module": "phi_gap_closure",
+  "timestamp": "2026-04-15 16:07:29 UTC",
+  "encoder": "BAAI/bge-large-en-v1.5",
+  "thresholds": {
+    "A2_gamma_min": 1.3,
+    "A3_modal_ratio_min": 2.0,
+    "A4_lipschitz_max": 10.0
+  },
+  "gap1_stability": {
+    "passed": false,
+    "min_separation_ratio": 0.9033948183059692,
+    "mean_separation_ratio": 1.6021785587072372,
+    "mean_diameter": 0.24464571475982666,
+    "max_diameter": 0.32441389560699463,
+    "threshold": 2.0,
+    "per_concept": [
+      {
+        "concept": "trailing_stop_recommendation",
+        "domain": "trading",
+        "diameter": 0.17991727590560913,
+        "mean_intra": 0.1186239942908287,
+        "min_inter": 0.39218807220458984,
+        "separation_ratio": 2.1798243522644043
+      },
+      {
+        "concept": "bug_location_diagnosis",
+        "domain": "software",
+        "diameter": 0.2892674207687378,
+        "mean_intra": 0.2043214589357376,
+        "min_inter": 0.43093210458755493,
+        "separation_ratio": 1.4897360801696777
+      },
+      {
+        "concept": "model_overfitting_explanation",
+        "domain": "ml_config",
+        "diameter": 0.22354096174240112,
+        "mean_intra": 0.15972217917442322,
+        "min_inter": 0.30053049325942993,
+        "separation_ratio": 1.3444091081619263
+      },
+      {
+        "concept": "attention_parallel_computation",
+        "domain": "technical",
+        "diameter": 0.26400333642959595,
+        "mean_intra": 0.20170824229717255,
+        "min_inter": 0.449266254901886,
+        "separation_ratio": 1.701744556427002
+      },
+      {
+        "concept": "uncertain_recommendation",
+        "domain": "epistemic",
+        "diameter": 0.2670106887817383,
+        "mean_intra": 0.18450894951820374,
+        "min_inter": 0.293073832988739,
+        "separation_ratio": 1.0976108312606812
+      },
+      {
+        "concept": "database_index_performance",
+        "domain": "software",
+        "diameter": 0.18849492073059082,
+        "mean_intra": 0.13655439019203186,
+        "min_inter": 0.4068838953971863,
+        "separation_ratio": 2.1585934162139893
+      },
+      {
+        "concept": "kl_divergence_elbo",
+        "domain": "technical",
+        "diameter": 0.22051721811294556,
+        "mean_intra": 0.1498812884092331,
+        "min_inter": 0.4282698631286621,
+        "separation_ratio": 1.942115306854248
+      },
+      {
+        "concept": "regime_classification_uncertain",
+        "domain": "trading",
+        "diameter": 0.32441389560699463,
+        "mean_intra": 0.25210708379745483,
+        "min_inter": 0.293073832988739,
+        "separation_ratio": 0.9033948183059692
+      }
+    ]
+  },
+  "gap2_expanded_validation": {
+    "corpus_size": 45,
+    "eps_lex": 0.18900953531265258,
+    "mean_para": 0.14099305868148804,
+    "mean_contra": 0.2786310487323337,
+    "mean_hedge": 0.2254024200969272,
+    "gamma_prop": 1.4741639794597268,
+    "gamma_prop_ci95": [
+      1.3105323704716472,
+      2.17029838818731
+    ],
+    "gamma_mod": 1.1925452317740206,
+    "gamma_mod_ci95": [
+      1.0217861541694557,
+      1.8223602739520426
+    ],
+    "lipschitz_L": 0.7017539703980097,
+    "a1_pass": true,
+    "a1_individual_rate": 0.8666666666666667,
+    "a1_ci95": [
+      0.12482108142640856,
+      0.1587685046924485
+    ],
+    "a2_pass": true,
+    "a3_pass": false,
+    "a4_pass": true,
+    "axioms_passed": 3,
+    "domain_results": {
+      "epistemic": {
+        "n_triplets": 8,
+        "mean_para": 0.13682971149683,
+        "mean_contra": 0.4039611965417862,
+        "mean_hedge": 0.28365401923656464,
+        "gamma_prop": 2.95229151711794,
+        "gamma_mod": 2.0730440496699885
+      },
+      "ml_config": {
+        "n_triplets": 7,
+        "mean_para": 0.1679557306425912,
+        "mean_contra": 0.281088045665196,
+        "mean_hedge": 0.22220541749681746,
+        "gamma_prop": 1.673584131900505,
+        "gamma_mod": 1.3229999157913181
+      },
+      "software": {
+        "n_triplets": 10,
+        "mean_para": 0.10124202966690063,
+        "mean_contra": 0.21541379094123841,
+        "mean_hedge": 0.1810719609260559,
+        "gamma_prop": 2.1277111062468586,
+        "gamma_mod": 1.7885058361809425
+      },
+      "technical": {
+        "n_triplets": 10,
+        "mean_para": 0.13485829830169677,
+        "mean_contra": 0.2360232412815094,
+        "mean_hedge": 0.23725513219833375,
+        "gamma_prop": 1.750157344811608,
+        "gamma_mod": 1.7592920508870802
+      },
+      "trading": {
+        "n_triplets": 10,
+        "mean_para": 0.1713356554508209,
+        "mean_contra": 0.28247209787368777,
+        "mean_hedge": 0.2135167896747589,
+        "gamma_prop": 1.6486474874738886,
+        "gamma_mod": 1.2461900537453827
+      }
+    }
+  },
+  "gaps_closed": false,
+  "decision": "REVIEW required"
+}

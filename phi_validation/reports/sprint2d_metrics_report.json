@@ -1,0 +1,108 @@
+{
+  "project": "ECHO",
+  "module": "sprint_2d_metrics",
+  "timestamp": "2026-04-30 17:43:19 UTC",
+  "tau": 0.4453166176726005,
+  "accuracy_baseline": 0.8100358422939068,
+  "abstention_rate": 0.2007168458781362,
+  "MES": {
+    "value": 5.543500972403037,
+    "ci_lo": 2.5824095181921156,
+    "ci_hi": 8.736946073639626,
+    "pass": "True"
+  },
+  "CAR": {
+    "global": 3.052976190476189,
+    "per_domain": {
+      "epistemic": {
+        "CAR": 2.5666666666666673,
+        "n": 59,
+        "n_abstain": 15,
+        "err_high": 0.4666666666666667,
+        "err_low": 0.18181818181818177
+      },
+      "ml_config": {
+        "CAR": 2.8,
+        "n": 56,
+        "n_abstain": 7,
+        "err_high": 0.2857142857142857,
+        "err_low": 0.10204081632653061
+      },
+      "software": {
+        "CAR": 4.177777777777776,
+        "n": 56,
+        "n_abstain": 9,
+        "err_high": 0.4444444444444444,
+        "err_low": 0.1063829787234043
+      },
+      "technical": {
+        "CAR": 3.818181818181818,
+        "n": 53,
+        "n_abstain": 11,
+        "err_high": 0.4545454545454546,
+        "err_low": 0.11904761904761907
+      },
+      "trading": {
+        "CAR": 2.0918367346938767,
+        "n": 55,
+        "n_abstain": 14,
+        "err_high": 0.3571428571428571,
+        "err_low": 0.1707317073170732
+      }
+    },
+    "domains_pass": 5,
+    "pass": true
+  },
+  "EIG": {
+    "value": 0.09522986060650085,
+    "ci_lo": 0.05895659976642209,
+    "ci_hi": 0.17568339567734562,
+    "pass": "True"
+  },
+  "SCE": {
+    "per_regime": {
+      "low_vol": {
+        "SCE": 0.2651639962043483,
+        "n": 70,
+        "pass": "False"
+      },
+      "medium_low": {
+        "SCE": 0.2562097120319985,
+        "n": 69,
+        "pass": "False"
+      },
+      "medium_high": {
+        "SCE": 0.29518060547322555,
+        "n": 70,
+        "pass": "False"
+      },
+      "high_vol": {
+        "SCE": 0.21704305064744575,
+        "n": 70,
+        "pass": "False"
+      }
+    },
+    "regimes_pass": 0,
+    "pass": false
+  },
+  "KAIRI": {
+    "sharpe_baseline": 18.064918141380765,
+    "sharpe_echo": 23.34674588146955,
+    "delta_sharpe": 5.281827740088783,
+    "drawdown_baseline": -2.400000000000034,
+    "drawdown_echo": -3.1999999999999957,
+    "delta_drawdown_pct": -33.333333327775705,
+    "n_trades_baseline": 279,
+    "n_trades_echo": 223,
+    "wr_baseline": 0.8100358422939068,
+    "wr_echo": 0.8654708520179372
+  },
+  "refutation": {
+    "R9.1": "PARTIAL (C4.1Y C4.2Y OOD-Y C4.3=3.6pp<6pp)",
+    "R9.2": true,
+    "R9.3": true,
+    "R9.4": true,
+    "R9.5": true
+  },
+  "decision": "PHASE_2_COMPLETE"
+}
