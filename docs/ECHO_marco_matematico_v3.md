@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Autores** | Kent Valera Chirinos  |
+| **Autores** | Kent Valera Chirinos & Sofia Valera   |
 | **Fecha** | Abril 2026 |
 | **Versión** | 3.2 — Fase 2 completada, ECHO no refutado |
 | **Clasificación** | Documento Técnico de Investigación Interna |
@@ -1449,7 +1449,7 @@ PRÓXIMOS PASOS (H4 — requiere recursos):
   - Validación sostenida ≥60 días sin activar R9.3
   - Ruta completa documentada en §9.10
 
-(Proyecto ECHO — Kent Valera Chirinos, abril 2026)
+(Proyecto ECHO — Kent Valera Chirinos & Sofia Valera, abril 2026)
 
 # REFERENCIAS
 
